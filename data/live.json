@@ -1,0 +1,15 @@
+{
+  "ok": false,
+  "mock": false,
+  "generatedAt": null,
+  "collection": {
+    "scope": "公开 RSS / 新闻索引",
+    "queries": ["梦回甄嬛传 游戏", "梦回甄嬛传 小游戏", "小游戏 行业 舆情"],
+    "noLogin": true,
+    "noBypass": true,
+    "persistentArchive": true
+  },
+  "sources": [],
+  "itemCount": 0,
+  "items": []
+}
