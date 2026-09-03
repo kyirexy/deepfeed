@@ -1,0 +1,88 @@
+{
+  "project": {
+    "id": "mhzhz",
+    "name": "梦回甄嬛传",
+    "keywords": [
+      "梦回甄嬛传",
+      "梦回·甄嬛传",
+      "小胖橘",
+      "广州盈心",
+      "北京爱谱雷",
+      "宫廷密录"
+    ],
+    "excludeKeywords": [
+      "东阿阿胶",
+      "阿胶",
+      "广告片",
+      "电视剧剪辑",
+      "影视剪辑",
+      "仿妆",
+      "影视解说",
+      "原班人马"
+    ]
+  },
+  "search": {
+    "maxResultsPerQuery": 12,
+    "queries": [
+      {
+        "id": "douyin-game",
+        "platform": "抖音",
+        "query": "\"梦回甄嬛传\" 小游戏",
+        "domains": ["douyin.com"]
+      },
+      {
+        "id": "douyin-issues",
+        "platform": "抖音",
+        "query": "\"梦回甄嬛传\" 体力 兑换码 评价",
+        "domains": ["douyin.com"]
+      },
+      {
+        "id": "xiaohongshu-game",
+        "platform": "小红书",
+        "query": "\"梦回甄嬛传\" 小游戏",
+        "domains": ["xiaohongshu.com"]
+      },
+      {
+        "id": "xiaohongshu-issues",
+        "platform": "小红书",
+        "query": "\"梦回甄嬛传\" 体力 兑换码 好玩吗",
+        "domains": ["xiaohongshu.com"]
+      },
+      {
+        "id": "bilibili-game",
+        "platform": "B站",
+        "query": "\"梦回甄嬛传\" 游戏 实况 测评",
+        "domains": ["bilibili.com", "b23.tv"]
+      },
+      {
+        "id": "taptap-game",
+        "platform": "TapTap",
+        "query": "\"梦回甄嬛传\" 评价 体力 兑换码",
+        "domains": ["taptap.cn", "taptap.com"]
+      },
+      {
+        "id": "wechat-game",
+        "platform": "微信公众号",
+        "query": "\"梦回甄嬛传\" 小游戏",
+        "domains": ["mp.weixin.qq.com"]
+      },
+      {
+        "id": "zhihu-game",
+        "platform": "知乎",
+        "query": "\"梦回甄嬛传\" 小游戏 评价",
+        "domains": ["zhihu.com"]
+      },
+      {
+        "id": "tieba-game",
+        "platform": "贴吧",
+        "query": "\"梦回甄嬛传\" 小游戏 评价",
+        "domains": ["tieba.baidu.com"]
+      }
+    ]
+  },
+  "feeds": [],
+  "retention": {
+    "maxItems": 5000
+  },
+  "output": "data/live.json"
+}
