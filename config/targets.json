@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "limits": {
+    "perSearch": 12,
+    "archiveItems": 5000,
+    "excludedItems": 500,
+    "requestTimeoutSeconds": 25
+  },
+  "platforms": {
+    "douyin": {
+      "label": "抖音",
+      "domains": [
+        "douyin.com"
+      ],
+      "siteQuery": "site:douyin.com"
+    },
+    "xiaohongshu": {
+      "label": "小红书",
+      "domains": [
+        "xiaohongshu.com"
+      ],
+      "siteQuery": "site:xiaohongshu.com"
+    },
+    "bilibili": {
+      "label": "B站",
+      "domains": [
+        "bilibili.com",
+        "b23.tv"
+      ],
+      "siteQuery": "site:bilibili.com"
+    },
+    "taptap": {
+      "label": "TapTap",
+      "domains": [
+        "taptap.cn",
+        "taptap.com"
+      ],
+      "siteQuery": "site:taptap.cn"
+    },
+    "wechat": {
+      "label": "微信公众号",
+      "domains": [
+        "mp.weixin.qq.com"
+      ],
+      "siteQuery": "site:mp.weixin.qq.com"
+    },
+    "zhihu": {
+      "label": "知乎",
+      "domains": [
+        "zhihu.com"
+      ],
+      "siteQuery": "site:zhihu.com"
+    },
+    "tieba": {
+      "label": "贴吧",
+      "domains": [
+        "tieba.baidu.com"
+      ],
+      "siteQuery": "site:tieba.baidu.com"
+    },
+    "news": {
+      "label": "新闻/行业媒体",
+      "domains": [],
+      "siteQuery": ""
+    }
+  },
+  "games": [
+    {
+      "id": "mhzhz",
+      "name": "梦回甄嬛传",
+      "aliases": [
+        "梦回甄嬛传",
+        "梦回·甄嬛传"
+      ],
+      "includeTerms": [
+        "小游戏",
+        "游戏",
+        "合成",
+        "体力",
+        "兑换码",
+        "小胖橘",
+        "三七互娱",
+        "广州盈心",
+        "北京爱谱雷"
+      ],
+      "excludeTerms": [
+        "东阿阿胶",
+        "阿胶",
+        "广告片",
+        "电视剧剪辑",
+        "影视剪辑",
+        "仿妆",
+        "影视解说",
+        "原班人马"
+      ],
+      "searchPlatforms": [
+        "douyin",
+        "xiaohongshu",
+        "bilibili",
+        "taptap",
+        "wechat",
+        "zhihu",
+        "tieba"
+      ],
+      "searchSuffixes": [
+        "小游戏",
+        "游戏 评价",
+        "体力 兑换码"
+      ],
+      "newsQueries": [
+        "梦回甄嬛传 游戏",
+        "梦回甄嬛传 小游戏"
+      ],
+      "rsshubFeeds": [
+        {
+          "id": "taptap-review-new",
+          "label": "TapTap 最新评价",
+          "platform": "taptap",
+          "path": "/taptap/review/900993/new",
+          "accessLevel": "评论 Feed",
+          "scopeTrusted": true
+        },
+        {
+          "id": "taptap-review-hot",
+          "label": "TapTap 综合评价",
+          "platform": "taptap",
+          "path": "/taptap/review/900993/hot",
+          "accessLevel": "评论 Feed",
+          "scopeTrusted": true
+        },
+        {
+          "id": "bilibili-video-search",
+          "label": "B站视频搜索",
+          "platform": "bilibili",
+          "pathTemplate": "/bilibili/vsearch/{query}/pubdate/1/4",
+          "query": "梦回甄嬛传 游戏",
+          "accessLevel": "搜索 Feed",
+          "scopeTrusted": true
+        }
+      ]
+    }
+  ],
+  "generalNewsQueries": [
+    "小游戏 行业 舆情",
+    "小游戏 玩家 评价",
+    "小游戏 投诉 风险"
+  ]
+}

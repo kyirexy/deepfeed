@@ -1,0 +1,63 @@
+services:
+  gateway:
+    build:
+      context: .
+      dockerfile: gateway/Dockerfile
+    environment:
+      SEARXNG_URL: http://searxng:8080
+      RSSHUB_URL: http://rsshub:1200
+      TIDE_SITE_FILE: /app/index.html
+      TIDE_DATA_FILE: /app/data/live.json
+      TIDE_TARGETS_CONFIG: /app/config/targets.json
+    ports:
+      - "8787:8787"
+    volumes:
+      - ./index.html:/app/index.html:ro
+      - ./data:/app/data:ro
+      - ./config:/app/config:ro
+    depends_on:
+      - searxng
+      - rsshub
+    restart: unless-stopped
+
+  searxng:
+    image: searxng/searxng:latest
+    environment:
+      SEARXNG_SECRET: ${SEARXNG_SECRET:-replace-this-secret}
+    volumes:
+      - ${SEARXNG_SETTINGS_FILE:-./infra/searxng/settings.local.yml}:/etc/searxng/settings.yml:ro
+    expose:
+      - "8080"
+    restart: unless-stopped
+
+  rsshub:
+    image: diygod/rsshub:latest
+    environment:
+      CACHE_TYPE: redis
+      REDIS_URL: redis://redis:6379/
+      REQUEST_RETRY: "2"
+    expose:
+      - "1200"
+    depends_on:
+      - redis
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    command: redis-server --save 60 1 --loglevel warning
+    volumes:
+      - rsshub-redis:/data
+    restart: unless-stopped
+
+  changedetection:
+    image: dgtlmoon/changedetection.io:latest
+    profiles: ["monitoring"]
+    ports:
+      - "5000:5000"
+    volumes:
+      - changedetection-data:/datastore
+    restart: unless-stopped
+
+volumes:
+  rsshub-redis:
+  changedetection-data:
