@@ -1,0 +1,9 @@
+{
+  "queries": [
+    "梦回甄嬛传 游戏",
+    "梦回甄嬛传 小游戏",
+    "小游戏 行业 舆情"
+  ],
+  "max_items": 500,
+  "feeds_per_query": ["bing_news", "google_news"]
+}
