@@ -82,7 +82,7 @@
             <div class="mini-list">
               <div class="mini-row"><span>归档标识</span><strong id="mockStatus">校验中</strong></div>
               <div class="mini-row"><span>最后生成</span><strong id="generatedAt">—</strong></div>
-              <div class="mini-row"><span>前端自动刷新</span><strong>每 5 分钟</strong></div>
+              <div class="mini-row"><span>前端自动刷新</span><strong>每 1 分钟</strong></div>
               <div class="mini-row"><span>采集任务</span><strong>GitHub Actions · 每 6 小时</strong></div>
             </div>
           </aside>
@@ -181,8 +181,8 @@
   </div>
 <script>
 (() => {
-  const RAW_DATA_URL = 'https://raw.githubusercontent.com/kyirexy/deepfeed/main/data/live.json';
-  const DATA_URL = location.protocol === 'file:' ? RAW_DATA_URL : '/api/live';
+  const RAW_DATA_URL = 'https://raw.githubusercontent.com/kyirexy/deepfeed/live-data/live.json';
+  const DATA_URL = (location.protocol === 'file:' || location.hostname.endsWith('github.io')) ? RAW_DATA_URL : '/api/live';
   const state = { data:null, items:[], timer:null, searchApi: localStorage.getItem('tide-search-api') || (location.protocol === 'file:' ? '' : '/api/search') };
   const $ = s => document.querySelector(s); const $$ = s => [...document.querySelectorAll(s)];
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
@@ -214,7 +214,7 @@
   async function runLiveSearch(){ const q=$('#liveSearchInput').value.trim(); if(q.length<2){$('#liveSearchMeta').textContent='请输入至少 2 个字符';return;} const endpoint=state.searchApi|| (location.protocol==='file:'?'':'/api/search'); if(!endpoint){ $('#liveSearchResults').innerHTML='<div class="empty"><strong>尚未配置搜索 API</strong><br><br>本地运行请启动 Docker Compose 后填写 http://localhost:8787/api/search；部署到同域后可留空。</div>'; return; } $('#liveSearchBtn').disabled=true; $('#liveSearchBtn').textContent='正在搜索…'; $('#liveSearchMeta').textContent='正在向自托管 SearXNG 发起真实请求'; $('#liveSearchResults').innerHTML='<div class="skeleton"></div><div class="skeleton"></div>'; try{ const url=new URL(endpoint,location.href); url.searchParams.set('q',q); url.searchParams.set('platform',$('#liveSearchPlatform').value); url.searchParams.set('time_range',$('#liveSearchRange').value); url.searchParams.set('limit','30'); const res=await fetch(url,{cache:'no-store'}); const data=await res.json().catch(()=>({})); if(!res.ok||data.mock!==false||data.ok!==true) throw new Error(data.detail||data.error||('HTTP '+res.status)); const rows=Array.isArray(data.results)?data.results:[]; $('#liveSearchMeta').textContent=`真实返回 ${rows.length} 条 · ${data.elapsedMs??'—'} ms`; $('#liveSearchQuery').textContent=data.query||q; $('#liveSearchResults').innerHTML=rows.map(searchResultHTML).join('')||'<div class="empty">本次没有搜到符合平台域名的公开结果。可切换时间范围或选择“全部公开网页”。</div>'; }catch(e){ $('#liveSearchMeta').textContent='搜索服务不可用'; $('#liveSearchQuery').textContent=''; $('#liveSearchResults').innerHTML=`<div class="empty"><strong>真实搜索失败</strong><br><br>${esc(e.message)}<br><br>系统没有使用 mock 结果替代。</div>`; }finally{$('#liveSearchBtn').disabled=false;$('#liveSearchBtn').textContent='搜索公开内容';} }
   $('#liveSearchForm').addEventListener('submit',e=>{e.preventDefault();runLiveSearch();});
 
-  $('#refreshBtn').addEventListener('click',load); load(); state.timer=setInterval(load,5*60*1000);
+  $('#refreshBtn').addEventListener('click',load); load(); state.timer=setInterval(load,60*1000);
 })();
 </script>
 </body>
