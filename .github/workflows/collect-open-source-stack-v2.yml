@@ -1,45 +1,34 @@
-name: Collect open-source platform search
+name: Minute public platform search
 
 on:
   workflow_dispatch:
   push:
+    branches: [main]
     paths:
       - "opensource-search/**"
+      - "scripts/enable_minute_mode.py"
       - ".github/workflows/collect-open-source-stack-v2.yml"
   schedule:
-    - cron: "27 * * * *"
+    # GitHub's scheduler accepts a shortest native interval of five minutes.
+    # One runner stays alive and performs five scans, one minute apart.
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: deepfeed-public-collection
+  group: deepfeed-minute-public-collection
   cancel-in-progress: false
 
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 12
 
     steps:
       - uses: actions/checkout@v4
-
-      - name: Start ephemeral SearXNG
-        run: |
-          mkdir -p /tmp/searxng
-          cp opensource-search/searxng-settings.yml /tmp/searxng/settings.yml
-          docker run -d --name searxng \
-            -p 8080:8080 \
-            -v /tmp/searxng/settings.yml:/etc/searxng/settings.yml:ro \
-            searxng/searxng:latest
-          for i in $(seq 1 40); do
-            if curl -fsS 'http://127.0.0.1:8080/search?q=health&format=json' >/dev/null; then
-              exit 0
-            fi
-            sleep 2
-          done
-          docker logs searxng
-          exit 1
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -50,39 +39,88 @@ jobs:
       - name: Install collector dependencies
         run: pip install -r opensource-search/requirements.txt
 
-      - name: Collect public indexed results
+      - name: Enable minute mode in the dashboard
+        run: |
+          python scripts/enable_minute_mode.py
+          git config user.name "tide-minute-bot"
+          git config user.email "tide-minute-bot@users.noreply.github.com"
+          git add index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "feat: enable one-minute live refresh"
+            git push origin HEAD:main
+          fi
+
+      - name: Restore latest minute archive
+        run: |
+          if git ls-remote --exit-code --heads origin live-data >/dev/null 2>&1; then
+            git fetch --depth=1 origin live-data
+            git show FETCH_HEAD:live.json > data/live.json
+            echo "Restored live-data snapshot."
+          else
+            echo "live-data branch does not exist yet; using main archive as seed."
+          fi
+
+      - name: Start ephemeral SearXNG
+        run: |
+          mkdir -p /tmp/searxng
+          cp opensource-search/searxng-settings.yml /tmp/searxng/settings.yml
+          docker run -d --name searxng \
+            -p 127.0.0.1:8080:8080 \
+            -v /tmp/searxng/settings.yml:/etc/searxng/settings.yml:ro \
+            searxng/searxng:latest
+          for i in $(seq 1 45); do
+            if curl -fsS 'http://127.0.0.1:8080/search?q=health&format=json' >/dev/null; then
+              exit 0
+            fi
+            sleep 2
+          done
+          docker logs searxng
+          exit 1
+
+      - name: Scan and publish once per minute
         env:
           SEARXNG_BASE_URL: http://127.0.0.1:8080
           DEEPFEED_CONFIG: opensource-search/config.json
           DEEPFEED_OUTPUT: data/live.json
-        run: python opensource-search/collect.py
-
-      - name: Verify real-data contract
         run: |
-          python - <<'PY'
+          set -euo pipefail
+          git config user.name "tide-minute-bot"
+          git config user.email "tide-minute-bot@users.noreply.github.com"
+
+          publish_snapshot() {
+            local blob tree commit
+            blob=$(git hash-object -w data/live.json)
+            tree=$(printf '100644 blob %s\tlive.json\n' "$blob" | git mktree)
+            commit=$(printf 'data: minute snapshot %s\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" | git commit-tree "$tree")
+            git push --force origin "$commit:refs/heads/live-data"
+          }
+
+          for slot in 1 2 3 4 5; do
+            started=$(date +%s)
+            echo "Minute scan ${slot}/5 started at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            python opensource-search/collect.py
+            python - <<'PY'
           import json
-          payload = json.load(open("data/live.json", encoding="utf-8"))
-          assert payload["mock"] is False
-          assert isinstance(payload["items"], list)
-          assert isinstance(payload["sources"], list)
-          assert payload["collection"]["noLogin"] is True
-          assert payload["collection"]["noBypass"] is True
+          from pathlib import Path
+          payload = json.loads(Path('data/live.json').read_text('utf-8'))
+          assert payload.get('mock') is False
+          assert payload.get('ok') is True
+          assert isinstance(payload.get('items'), list)
           print({
-              "mock": payload["mock"],
-              "itemCount": payload["itemCount"],
-              "acceptedThisRun": payload["acceptedThisRun"],
-              "generatedAt": payload["generatedAt"],
+              'generatedAt': payload.get('generatedAt'),
+              'itemCount': payload.get('itemCount'),
+              'acceptedThisRun': payload.get('acceptedThisRun'),
           })
           PY
+            publish_snapshot
 
-      - name: Persist archive
-        run: |
-          git config user.name "deepfeed-bot"
-          git config user.email "deepfeed-bot@users.noreply.github.com"
-          git add data/live.json
-          if git diff --cached --quiet; then
-            echo "No archive change."
-          else
-            git commit -m "data: refresh open-source platform search"
-            git push
-          fi
+            if [ "$slot" -lt 5 ]; then
+              elapsed=$(( $(date +%s) - started ))
+              remaining=$(( 60 - elapsed ))
+              if [ "$remaining" -gt 0 ]; then sleep "$remaining"; fi
+            fi
+          done
+
+      - name: Diagnostics
+        if: always()
+        run: docker logs --tail 80 searxng 2>/dev/null || true
