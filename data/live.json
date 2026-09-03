@@ -1,7 +1,7 @@
 {
   "ok": true,
   "mock": false,
-  "generatedAt": "2026-09-03T02:56:31.152103Z",
+  "generatedAt": "2026-09-03T03:08:20.039765Z",
   "collection": {
     "scope": "公开 RSS / 新闻索引",
     "queries": [
@@ -25,7 +25,7 @@
       "provider": "Google News RSS",
       "query": "梦回甄嬛传 游戏",
       "ok": true,
-      "count": 6,
+      "count": 5,
       "error": null
     },
     {
@@ -57,7 +57,7 @@
       "error": null
     }
   ],
-  "itemCount": 44,
+  "itemCount": 57,
   "items": [
     {
       "id": "live-740ffef65d0b9460f3dbbeab",
@@ -69,8 +69,8 @@
       "description": "红星观察丨《愤怒的小鸟》飞回中国，觊发娱乐登录免费下载为何成为它的新“巢”？ womenofchina.com",
       "publishedAt": "2026-08-29T22:10:11Z",
       "firstSeenAt": "2026-09-03T02:56:10.376242Z",
-      "lastSeenAt": "2026-09-03T02:56:30.556003Z",
-      "collectedAt": "2026-09-03T02:56:30.556003Z",
+      "lastSeenAt": "2026-09-03T03:08:19.552336Z",
+      "collectedAt": "2026-09-03T03:08:19.552336Z",
       "mode": "实时公开RSS"
     },
     {
@@ -79,12 +79,12 @@
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uQ2hUdG9fRVNISzdmMU1GVDN0cnV1MWlBVGFmc0FiUi1udjRoZ04zb0ZvMDVHWTJSOGFTMEsySFJfci1IaTI4aUF1WGVUbHBiVUZGQ2tvcS16OTBzV0dOM2paR2JoUQ?oc=5",
       "source": "mrjjxw.com",
       "provider": "Google News RSS",
-      "query": "梦回甄嬛传 小游戏",
+      "query": "梦回甄嬛传 游戏",
       "description": "智谱上市推高投资收益，三七互娱2026年上半年净利润超17.6亿元，游戏主业仍待突围 mrjjxw.com",
       "publishedAt": "2026-08-26T14:01:00Z",
       "firstSeenAt": "2026-09-03T02:56:10.376242Z",
-      "lastSeenAt": "2026-09-03T02:56:30.556003Z",
-      "collectedAt": "2026-09-03T02:56:30.556003Z",
+      "lastSeenAt": "2026-09-03T03:08:19.004455Z",
+      "collectedAt": "2026-09-03T03:08:19.004455Z",
       "mode": "实时公开RSS"
     },
     {
@@ -97,8 +97,8 @@
       "description": "全球化产品矩阵持续完善三七互娱海外业务释放增长动能-yeeyi yeeyi",
       "publishedAt": "2026-08-26T08:43:10Z",
       "firstSeenAt": "2026-09-03T02:56:10.985756Z",
-      "lastSeenAt": "2026-09-03T02:56:30.556003Z",
-      "collectedAt": "2026-09-03T02:56:30.556003Z",
+      "lastSeenAt": "2026-09-03T03:08:19.552336Z",
+      "collectedAt": "2026-09-03T03:08:19.552336Z",
       "mode": "实时公开RSS"
     },
     {
@@ -111,8 +111,8 @@
       "description": "米哈游新作亮相科隆游戏展丨游值洞察 21财经",
       "publishedAt": "2026-08-26T07:00:00Z",
       "firstSeenAt": "2026-09-03T02:56:10.376242Z",
-      "lastSeenAt": "2026-09-03T02:56:30.556003Z",
-      "collectedAt": "2026-09-03T02:56:30.556003Z",
+      "lastSeenAt": "2026-09-03T03:08:19.552336Z",
+      "collectedAt": "2026-09-03T03:08:19.552336Z",
       "mode": "实时公开RSS"
     },
     {
@@ -125,8 +125,8 @@
       "description": "锚定新品上线关键阶段，三七互娱多维布局筑牢未来发展基石 caiwennews.com",
       "publishedAt": "2026-08-25T10:25:58Z",
       "firstSeenAt": "2026-09-03T02:56:10.985756Z",
-      "lastSeenAt": "2026-09-03T02:56:10.985756Z",
-      "collectedAt": "2026-09-03T02:56:10.985756Z",
+      "lastSeenAt": "2026-09-03T03:08:19.552336Z",
+      "collectedAt": "2026-09-03T03:08:19.552336Z",
       "mode": "实时公开RSS"
     },
     {
@@ -139,8 +139,8 @@
       "description": "三七互娱上半年归母净利润同比增长26% DoNews",
       "publishedAt": "2026-08-25T09:42:28Z",
       "firstSeenAt": "2026-09-03T02:56:10.376242Z",
-      "lastSeenAt": "2026-09-03T02:56:29.968346Z",
-      "collectedAt": "2026-09-03T02:56:29.968346Z",
+      "lastSeenAt": "2026-09-03T03:08:19.004455Z",
+      "collectedAt": "2026-09-03T03:08:19.004455Z",
       "mode": "实时公开RSS"
     },
     {
@@ -172,17 +172,31 @@
       "mode": "实时公开RSS"
     },
     {
+      "id": "live-62205a146e0442775abf7494",
+      "title": "游戏行业危机舆情控制公司怎么选",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e4a3d88f453d9b355c1405db6559&url=https%3a%2f%2fwww.sohu.com%2fa%2f1065847131_534322&c=10157249008788004611&mkt=en-us",
+      "source": "搜狐",
+      "provider": "Bing News RSS",
+      "query": "小游戏 行业 舆情",
+      "description": "先聊一个真实发生过的场景。某二次元游戏在版本上线后第 7 天，因为卡池调整引发玩家大规模不满，凌晨两点的贴吧、NGA 已经出现\"官方跪着道歉\"\"回档退钱\"的统一话术。运营团队在上班前 8 小时就发现苗头，但当时只在用一份覆盖新闻门户的通用监测简报，等冲到小红书和 TapTap 的负面笔记跟前已是中午——节奏整整慢了一天。后来花了将近三周和几轮补偿才把舆论压下去。 回头复盘，问题不是出在\"哪个产品出 ...",
+      "publishedAt": "2026-08-21T09:46:00Z",
+      "firstSeenAt": "2026-09-03T03:08:19.782416Z",
+      "lastSeenAt": "2026-09-03T03:08:19.782416Z",
+      "collectedAt": "2026-09-03T03:08:19.782416Z",
+      "mode": "实时公开RSS"
+    },
+    {
       "id": "live-75476463799fde0f5c7872a9",
-      "title": "游戏行业危机舆情控制公司怎么选 - news.qq.com",
+      "title": "游戏行业危机舆情控制公司怎么选 - QQ News",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1tZEIteG5aZ2tEZmZVZ2ZpclJ1X1dlME03LWFiX2I4R0FHUG8tWHlTcnZKeXZSbzJ6T2l5YXI3WWY0UTJrU182V010T3M4TTNLbjQyNEZnOTIzQm1EN3ZkYU13?oc=5",
-      "source": "news.qq.com",
+      "source": "QQ News",
       "provider": "Google News RSS",
       "query": "小游戏 行业 舆情",
-      "description": "游戏行业危机舆情控制公司怎么选 news.qq.com",
+      "description": "游戏行业危机舆情控制公司怎么选 QQ News",
       "publishedAt": "2026-08-21T08:48:00Z",
       "firstSeenAt": "2026-09-03T02:56:11.611540Z",
-      "lastSeenAt": "2026-09-03T02:56:31.151626Z",
-      "collectedAt": "2026-09-03T02:56:31.151626Z",
+      "lastSeenAt": "2026-09-03T03:08:20.039216Z",
+      "collectedAt": "2026-09-03T03:08:20.039216Z",
       "mode": "实时公开RSS"
     },
     {
@@ -214,17 +228,31 @@
       "mode": "实时公开RSS"
     },
     {
+      "id": "live-c62093f262789149845d991d",
+      "title": "聚焦精品化与长线经营，巨量引擎小游戏行业论坛在沪举行",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e4a3d88f453d9b355c1405db6559&url=https%3a%2f%2fview.inews.qq.com%2fa%2f20260729A0AP1B00&c=15309748561533315052&mkt=en-us",
+      "source": "腾讯网",
+      "provider": "Bing News RSS",
+      "query": "小游戏 行业 舆情",
+      "description": "伴随行业进入精品化转型阶段，抖音小游戏生态呈现出强劲的增长势头。巨量引擎互动娱乐行业总经理 陶晶晶 在会上介绍，2026年上半年，上架抖音小程序的游戏数量增长96%，丰富的内容供给带动用户消费心智养成，内容消费正在成为玩家的新习惯，产业增长结构持续优化。",
+      "publishedAt": "2026-07-29T12:31:00Z",
+      "firstSeenAt": "2026-09-03T03:08:19.782416Z",
+      "lastSeenAt": "2026-09-03T03:08:19.782416Z",
+      "collectedAt": "2026-09-03T03:08:19.782416Z",
+      "mode": "实时公开RSS"
+    },
+    {
       "id": "live-757ad62ed726a20eb974d6b6",
-      "title": "2026 年 7 月国产 / 进口游戏版号出炉，3A 大作《影之刃零》过审 - news.qq.com",
+      "title": "2026 年 7 月国产 / 进口游戏版号出炉，3A 大作《影之刃零》过审 - QQ News",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53THJYMFRHV3U2bjFyeVdOYlNXWlJXdERieHU1ZTFwU1RpTjU3TkpqektMQ0ZObjVOd3RZTGxPZE8xWFpyTXd4RXVna21qYnlaYXJ1Ulp3?oc=5",
-      "source": "news.qq.com",
+      "source": "QQ News",
       "provider": "Google News RSS",
       "query": "梦回甄嬛传 游戏",
-      "description": "2026 年 7 月国产 / 进口游戏版号出炉，3A 大作《影之刃零》过审 news.qq.com",
+      "description": "2026 年 7 月国产 / 进口游戏版号出炉，3A 大作《影之刃零》过审 QQ News",
       "publishedAt": "2026-07-23T07:00:00Z",
       "firstSeenAt": "2026-09-03T02:56:10.376242Z",
-      "lastSeenAt": "2026-09-03T02:56:29.968346Z",
-      "collectedAt": "2026-09-03T02:56:29.968346Z",
+      "lastSeenAt": "2026-09-03T03:08:19.004455Z",
+      "collectedAt": "2026-09-03T03:08:19.004455Z",
       "mode": "实时公开RSS"
     },
     {
@@ -237,8 +265,8 @@
       "description": "2026年7月国产/进口游戏版号出炉，3A大作《影之刃零》过审 Sohu",
       "publishedAt": "2026-07-23T07:00:00Z",
       "firstSeenAt": "2026-09-03T02:56:10.985756Z",
-      "lastSeenAt": "2026-09-03T02:56:30.556003Z",
-      "collectedAt": "2026-09-03T02:56:30.556003Z",
+      "lastSeenAt": "2026-09-03T03:08:19.552336Z",
+      "collectedAt": "2026-09-03T03:08:19.552336Z",
       "mode": "实时公开RSS"
     },
     {
@@ -270,6 +298,20 @@
       "mode": "实时公开RSS"
     },
     {
+      "id": "live-c00133cc4b711bcbef9d7ee2",
+      "title": "小游戏赛道“三个月定生死”？这款4.3亿用户的产品说：未必",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e4a3d88f453d9b355c1405db6559&url=https%3a%2f%2fnews.17173.com%2fc%2ftg%2fcontent%2f07202026%2f130605699.shtml&c=4864618562811370716&mkt=en-us",
+      "source": "17173游戏网",
+      "provider": "Bing News RSS",
+      "query": "小游戏 行业 舆情",
+      "description": "7月17号，《三国：冰河时代》将迎来它的两周年。累计用户突破4.3亿，微信小游戏畅销榜头部稳坐两年，女性用户占比突破30%。在“三个月定生死”几乎成为行业铁律的赛道里，一款小游戏能活过两年，本身就是一个值得被拆解的样本。 7月17号，《三国：冰河 ...",
+      "publishedAt": "2026-07-20T06:06:00Z",
+      "firstSeenAt": "2026-09-03T03:08:19.782416Z",
+      "lastSeenAt": "2026-09-03T03:08:19.782416Z",
+      "collectedAt": "2026-09-03T03:08:19.782416Z",
+      "mode": "实时公开RSS"
+    },
+    {
       "id": "live-511402c3899d77f96cf88c99",
       "title": "不拼租金拼订单！广州黄埔三年冲刺大湾区小游戏产业高地",
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e1cb1833464a80b72c11eb1f2532&url=https%3a%2f%2fview.inews.qq.com%2fa%2f20260703A08GS100&c=2601437622317822415&mkt=en-us",
@@ -295,6 +337,20 @@
       "firstSeenAt": "2026-09-03T02:56:30.814567Z",
       "lastSeenAt": "2026-09-03T02:56:30.814567Z",
       "collectedAt": "2026-09-03T02:56:30.814567Z",
+      "mode": "实时公开RSS"
+    },
+    {
+      "id": "live-6f493ce6049e7f0709f9debc",
+      "title": "不拼租金拼订单！广州黄埔三年冲刺大湾区小游戏产业高地",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e4a3d88f453d9b355c1405db6559&url=https%3a%2f%2fview.inews.qq.com%2fa%2f20260703A08GS100&c=2601437622317822415&mkt=en-us",
+      "source": "腾讯网",
+      "provider": "Bing News RSS",
+      "query": "小游戏 行业 舆情",
+      "description": "广州游戏产业正从科韵路向东、南两翼扩展。东部承接外溢的广州开发区、黄埔区，在鱼珠游戏小镇与科学城数智小镇摆下一盘“主辅双核”的棋局。 前不久，南都N视频记者走访鱼珠游戏小镇了解到，目前南方智媒大厦已入驻相关企业40余家，运营方预期两年内 ...",
+      "publishedAt": "2026-07-03T09:18:00Z",
+      "firstSeenAt": "2026-09-03T03:08:19.782416Z",
+      "lastSeenAt": "2026-09-03T03:08:19.782416Z",
+      "collectedAt": "2026-09-03T03:08:19.782416Z",
       "mode": "实时公开RSS"
     },
     {
@@ -326,6 +382,20 @@
       "mode": "实时公开RSS"
     },
     {
+      "id": "live-856054b501e6d0245db64aa6",
+      "title": "用户体量已趋近行业天花板，微信小游戏九年迭代：能否凭AI、全球 ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e4a3d88f453d9b355c1405db6559&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20260528A09U6700&c=7041828885712474009&mkt=en-us",
+      "source": "腾讯网",
+      "provider": "Bing News RSS",
+      "query": "小游戏 行业 舆情",
+      "description": "小游戏的流量红利时代基本宣告结束，但结构性机会或许才刚刚开始。 5月27日，《每日经济新闻》记者在“2026微信小游戏开发者大会”现场了解到，目前微信小游戏月活跃用户突破5亿，全网用户日均使用时长超60分钟，平台用户主动社交互动突破1亿次，超半数 ...",
+      "publishedAt": "2026-05-28T14:44:00Z",
+      "firstSeenAt": "2026-09-03T03:08:19.782416Z",
+      "lastSeenAt": "2026-09-03T03:08:19.782416Z",
+      "collectedAt": "2026-09-03T03:08:19.782416Z",
+      "mode": "实时公开RSS"
+    },
+    {
       "id": "live-8b0a488e057e25c082b3d559",
       "title": "用户体量已趋近行业天花板，微信小游戏九年迭代：能否凭AI、全球 ...",
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e1cb1833464a80b72c11eb1f2532&url=https%3a%2f%2fwww.nbd.com.cn%2farticles%2f2026-05-28%2f4411392.html&c=6755503062493329422&mkt=en-us",
@@ -351,6 +421,20 @@
       "firstSeenAt": "2026-09-03T02:56:30.814567Z",
       "lastSeenAt": "2026-09-03T02:56:30.814567Z",
       "collectedAt": "2026-09-03T02:56:30.814567Z",
+      "mode": "实时公开RSS"
+    },
+    {
+      "id": "live-dc12870c005c7b4b547113e3",
+      "title": "用户体量已趋近行业天花板，微信小游戏九年迭代：能否凭AI、全球 ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e4a3d88f453d9b355c1405db6559&url=https%3a%2f%2fwww.nbd.com.cn%2farticles%2f2026-05-28%2f4411392.html&c=6755503062493329422&mkt=en-us",
+      "source": "每经网",
+      "provider": "Bing News RSS",
+      "query": "小游戏 行业 舆情",
+      "description": "5月27日，“2026微信小游戏开发者大会”上，记者获知，微信小游戏月活突破5亿，用户日均使用超60分钟，但用户体量已趋近天花板，平台战略转向结构性深耕。当前小游戏行业优质原创内容供给滞后，微信提出“常青生态”理念。AI成为转型升级关键，但无法 ...",
+      "publishedAt": "2026-05-28T14:39:00Z",
+      "firstSeenAt": "2026-09-03T03:08:19.782416Z",
+      "lastSeenAt": "2026-09-03T03:08:19.782416Z",
+      "collectedAt": "2026-09-03T03:08:19.782416Z",
       "mode": "实时公开RSS"
     },
     {
@@ -382,6 +466,20 @@
       "mode": "实时公开RSS"
     },
     {
+      "id": "live-a695e92c445e40c6b4627ab6",
+      "title": "游戏行业2025成绩单：整体回暖但分化加剧，出海、AI与小游戏成破局 ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e4a3d88f453d9b355c1405db6559&url=https%3a%2f%2ffinance.eastmoney.com%2fa%2f202604303726465626.html&c=12882471000827456444&mkt=en-us",
+      "source": "东方财富网",
+      "provider": "Bing News RSS",
+      "query": "小游戏 行业 舆情",
+      "description": "过去一年，国内游戏市场收入与用户规模双创新高，版号供给持续放量，行业整体回暖。但上市公司业绩头部领跑、中小承压的分化格局愈发凸显。 超六成公司盈利同比提升，头部效应持续凸显 《2025年中国游戏产业报告》显示，去年国内游戏市场实际销售收入 ...",
+      "publishedAt": "2026-04-30T09:10:00Z",
+      "firstSeenAt": "2026-09-03T03:08:19.782416Z",
+      "lastSeenAt": "2026-09-03T03:08:19.782416Z",
+      "collectedAt": "2026-09-03T03:08:19.782416Z",
+      "mode": "实时公开RSS"
+    },
+    {
       "id": "live-80160dfbd274e1c95b2db4de",
       "title": "报告：2025年国内游戏收入3507亿元，同比增长7.68% - 21财经",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ0ZyVy12ZzJJemlYSl92bjR4bFgyclBsYkVqVHFPWjZlM0Z3V2F0b2U1ZzhHeGQ2MEoxalpNMHp5M0VpZ2F2M1pHVnRGZ0dPTGR6akhGaWFiNm44eElxb0NMQmRLWGc3TWIybjZueVBxLTJfSTdrZlF0dEZIZnRCbXVOcmhDUGE4bC1EZjBodw?oc=5",
@@ -391,8 +489,8 @@
       "description": "报告：2025年国内游戏收入3507亿元，同比增长7.68% 21财经",
       "publishedAt": "2025-12-19T08:00:00Z",
       "firstSeenAt": "2026-09-03T02:56:11.611540Z",
-      "lastSeenAt": "2026-09-03T02:56:31.151626Z",
-      "collectedAt": "2026-09-03T02:56:31.151626Z",
+      "lastSeenAt": "2026-09-03T03:08:20.039216Z",
+      "collectedAt": "2026-09-03T03:08:20.039216Z",
       "mode": "实时公开RSS"
     },
     {
@@ -405,8 +503,8 @@
       "description": "2025中国企业AI办公数字化白皮书 InfoQ-CN",
       "publishedAt": "2025-12-15T08:00:00Z",
       "firstSeenAt": "2026-09-03T02:56:11.611540Z",
-      "lastSeenAt": "2026-09-03T02:56:31.151626Z",
-      "collectedAt": "2026-09-03T02:56:31.151626Z",
+      "lastSeenAt": "2026-09-03T03:08:20.039216Z",
+      "collectedAt": "2026-09-03T03:08:20.039216Z",
       "mode": "实时公开RSS"
     },
     {
@@ -438,6 +536,20 @@
       "mode": "实时公开RSS"
     },
     {
+      "id": "live-c26bb56379e02bc653c3a6e4",
+      "title": "QuestMobile2025手机游戏行业发展分析报告：游戏APP与微信小游戏差异化 ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e4a3d88f453d9b355c1405db6559&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20251021A02A2Y00%3fid%3d20251021A02A2Y00%26path%3da%26app%3dnews%26redirect_pc%3d1&c=8405440013585178959&mkt=en-us",
+      "source": "腾讯网",
+      "provider": "Bing News RSS",
+      "query": "小游戏 行业 舆情",
+      "description": "各位童鞋搭嘎猴啊，上周“谷子经济市场洞察”看的怎么样？有童鞋在后台留言：“还以为只是降温下雨，结果来了个快速入冬，冷空气都变得这么猴急了吗？” 别说，脱了短袖就换毛衣，对俺们程序猿来说还挺很友好，一年少买几身衣服，能省不少钱！",
+      "publishedAt": "2025-10-21T02:59:00Z",
+      "firstSeenAt": "2026-09-03T03:08:19.782416Z",
+      "lastSeenAt": "2026-09-03T03:08:19.782416Z",
+      "collectedAt": "2026-09-03T03:08:19.782416Z",
+      "mode": "实时公开RSS"
+    },
+    {
       "id": "live-6070283720936e2e06d09d1b",
       "title": "QuestMobile2025手机游戏行业发展分析报告：抖音小游戏发力月活用户达1 ...",
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e1cb1833464a80b72c11eb1f2532&url=https%3a%2f%2fwww.msn.com%2fzh-cn%2f%25E9%2580%259A%25E7%2594%25A8%2f%25E9%2580%259A%25E7%2594%25A8%2fquestmobile2025%25E6%2589%258B%25E6%259C%25BA%25E6%25B8%25B8%25E6%2588%258F%25E8%25A1%258C%25E4%25B8%259A%25E5%258F%2591%25E5%25B1%2595%25E5%2588%2586%25E6%259E%2590%25E6%258A%25A5%25E5%2591%258A-%25E6%258A%2596%25E9%259F%25B3%25E5%25B0%258F%25E6%25B8%25B8%25E6%2588%258F%25E5%258F%2591%25E5%258A%259B%25E6%259C%2588%25E6%25B4%25BB%25E7%2594%25A8%25E6%2588%25B7%25E8%25BE%25BE1-71%25E4%25BA%25BF%2far-AA1ORqrt&c=5033550865435993246&mkt=en-us",
@@ -463,6 +575,20 @@
       "firstSeenAt": "2026-09-03T02:56:30.814567Z",
       "lastSeenAt": "2026-09-03T02:56:30.814567Z",
       "collectedAt": "2026-09-03T02:56:30.814567Z",
+      "mode": "实时公开RSS"
+    },
+    {
+      "id": "live-fbad5a8de420d70c9eb0fc6d",
+      "title": "QuestMobile2025手机游戏行业发展分析报告：抖音小游戏发力月活用户达1 ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e4a3d88f453d9b355c1405db6559&url=https%3a%2f%2fwww.msn.com%2fzh-cn%2f%25E9%2580%259A%25E7%2594%25A8%2f%25E9%2580%259A%25E7%2594%25A8%2fquestmobile2025%25E6%2589%258B%25E6%259C%25BA%25E6%25B8%25B8%25E6%2588%258F%25E8%25A1%258C%25E4%25B8%259A%25E5%258F%2591%25E5%25B1%2595%25E5%2588%2586%25E6%259E%2590%25E6%258A%25A5%25E5%2591%258A-%25E6%258A%2596%25E9%259F%25B3%25E5%25B0%258F%25E6%25B8%25B8%25E6%2588%258F%25E5%258F%2591%25E5%258A%259B%25E6%259C%2588%25E6%25B4%25BB%25E7%2594%25A8%25E6%2588%25B7%25E8%25BE%25BE1-71%25E4%25BA%25BF%2far-AA1ORqrt&c=5033550865435993246&mkt=en-us",
+      "source": "MSN",
+      "provider": "Bing News RSS",
+      "query": "小游戏 行业 舆情",
+      "description": "DoNews10月21日消息，2025年前八个月，国产游戏版号过审数量达到1050个，同比增长了23.5%，精品化趋势和高质量发展态势都很明显，带动了用户量的持续增长。 QuestMobile数据显示，截止到2025年8月，手机游戏APP行业月活用户规模达到6.98亿，同比增长了7.9%，人均单日 ...",
+      "publishedAt": "2025-10-20T21:39:00Z",
+      "firstSeenAt": "2026-09-03T03:08:19.782416Z",
+      "lastSeenAt": "2026-09-03T03:08:19.782416Z",
+      "collectedAt": "2026-09-03T03:08:19.782416Z",
       "mode": "实时公开RSS"
     },
     {
@@ -522,6 +648,34 @@
       "mode": "实时公开RSS"
     },
     {
+      "id": "live-9ac36f86407a31909cecb67d",
+      "title": "宫廷风云国战争锋!甄嬛传联动PV震撼来袭，游戏内更有诸多精彩联动 ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e4a2a2aa478ca5d0ae748d6ce831&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20250908A08MPG00&c=7808725452775330286&mkt=en-us",
+      "source": "腾讯网",
+      "provider": "Bing News RSS",
+      "query": "梦回甄嬛传 游戏",
+      "description": "巨人网络旗下经典国战IP征途与现象级国民IP《甄嬛传》，达成深度联动。本周游戏内多项主题联动活动已拉开帷幕，为所有玩家与剧迷奉上一场宫廷风云与热血国战交织的沉浸体验。 征途IP×甄嬛传联动PV，将《甄嬛传》中甄嬛波澜壮阔的一生与征途玩家 ...",
+      "publishedAt": "2025-09-08T14:10:00Z",
+      "firstSeenAt": "2026-09-03T03:08:18.721334Z",
+      "lastSeenAt": "2026-09-03T03:08:18.721334Z",
+      "collectedAt": "2026-09-03T03:08:18.721334Z",
+      "mode": "实时公开RSS"
+    },
+    {
+      "id": "live-c1957bc2e75107ac4c37cae9",
+      "title": "宫廷风云国战争锋!甄嬛传联动PV震撼来袭，游戏内更有诸多精彩联动 ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e4a33efa403b9322cb5cd44b5433&url=https%3a%2f%2fnews.qq.com%2frain%2fa%2f20250908A08MPG00&c=7808725452775330286&mkt=en-us",
+      "source": "腾讯网",
+      "provider": "Bing News RSS",
+      "query": "梦回甄嬛传 小游戏",
+      "description": "巨人网络旗下经典国战IP征途与现象级国民IP《甄嬛传》，达成深度联动。本周游戏内多项主题联动活动已拉开帷幕，为所有玩家与剧迷奉上一场宫廷风云与热血国战交织的沉浸体验。 征途IP×甄嬛传联动PV，将《甄嬛传》中甄嬛波澜壮阔的一生与征途玩家 ...",
+      "publishedAt": "2025-09-08T14:10:00Z",
+      "firstSeenAt": "2026-09-03T03:08:19.286543Z",
+      "lastSeenAt": "2026-09-03T03:08:19.286543Z",
+      "collectedAt": "2026-09-03T03:08:19.286543Z",
+      "mode": "实时公开RSS"
+    },
+    {
       "id": "live-5b7018600c2010c1c549603f",
       "title": "沃观Wovision全球舆情监测系统：洞察全球信息生态，赋能国际传播战略 - 中华网",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pMjdQT2R4dWFGS18wZmhFWEVnNjB5Z1Awa1d0UDZ6OWJmTjFVY3BLeGVPWklpcTRLREhhdi1IRzc1b1NTbEVxMi1tNW5YSkZVTlFQSGRzZEFmQ05lMnZjc1VxYlBRR3ljRHprNkZEdk8?oc=5",
@@ -531,22 +685,22 @@
       "description": "沃观Wovision全球舆情监测系统：洞察全球信息生态，赋能国际传播战略 中华网",
       "publishedAt": "2025-09-01T07:00:00Z",
       "firstSeenAt": "2026-09-03T02:56:11.611540Z",
-      "lastSeenAt": "2026-09-03T02:56:31.151626Z",
-      "collectedAt": "2026-09-03T02:56:31.151626Z",
+      "lastSeenAt": "2026-09-03T03:08:20.039216Z",
+      "collectedAt": "2026-09-03T03:08:20.039216Z",
       "mode": "实时公开RSS"
     },
     {
       "id": "live-a47dbe1a82b79df71b895b05",
-      "title": "助力游戏运营之使用 GenAI 做 Discord 舆情分析 - Amazon Web Services (AWS)",
+      "title": "助力游戏运营之使用 GenAI 做 Discord 舆情分析 - aws.amazon.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOWFOUGNwUG9reTZVckhFbUhKMFB3ZWF4cmZWWGZweGp6a2EzR2VaaExPS3ZvNXpkT3ZEUzlJc3JaMGZ0WjZCR0RKWm5Cd0dxNWxBeVZkWEE1alZYc3NqYndnSW52VjNqUGMwRTUtY0xqQnNPZUdHNFlMSy1Dei1lNDBISElaV2hRSjd0ODFQTExPdndQa19ncWxyWUZYWEFDY0ZsSDgyZlZiYVI1RmZTbA?oc=5",
-      "source": "Amazon Web Services (AWS)",
+      "source": "aws.amazon.com",
       "provider": "Google News RSS",
       "query": "小游戏 行业 舆情",
-      "description": "助力游戏运营之使用 GenAI 做 Discord 舆情分析 Amazon Web Services (AWS)",
+      "description": "助力游戏运营之使用 GenAI 做 Discord 舆情分析 aws.amazon.com",
       "publishedAt": "2024-07-26T07:00:00Z",
       "firstSeenAt": "2026-09-03T02:56:11.611540Z",
-      "lastSeenAt": "2026-09-03T02:56:31.151626Z",
-      "collectedAt": "2026-09-03T02:56:31.151626Z",
+      "lastSeenAt": "2026-09-03T03:08:20.039216Z",
+      "collectedAt": "2026-09-03T03:08:20.039216Z",
       "mode": "实时公开RSS"
     },
     {
@@ -578,17 +732,31 @@
       "mode": "实时公开RSS"
     },
     {
+      "id": "live-1ef1a94656cdccf8f3f212fc",
+      "title": "游戏工委：舆论期待游戏与AIGC产生更多“化学反应”",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e4a3d88f453d9b355c1405db6559&url=https%3a%2f%2ffinance.eastmoney.com%2fa%2f202405103073439828.html&c=15428990572928922518&mkt=en-us",
+      "source": "东方财富网",
+      "provider": "Bing News RSS",
+      "query": "小游戏 行业 舆情",
+      "description": "5月10日，中国音像与数字出版协会游戏出版工作委员会（简称游戏工委）微信公众号发布《2023年游戏产业舆情生态报告》（简称《报告》）摘要版。据《报告》分析，2023年，ChatGPT带动AI（人工智能）热潮席卷全球，舆论持续关注游戏产业科技价值、跨界应用 ...",
+      "publishedAt": "2024-05-10T15:22:00Z",
+      "firstSeenAt": "2026-09-03T03:08:19.782416Z",
+      "lastSeenAt": "2026-09-03T03:08:19.782416Z",
+      "collectedAt": "2026-09-03T03:08:19.782416Z",
+      "mode": "实时公开RSS"
+    },
+    {
       "id": "live-549c6f7fc423d642b0a58792",
-      "title": "助力游戏运营之使用 GenAI 做玩家聊天内容舆情分析 - Amazon Web Services (AWS)",
+      "title": "助力游戏运营之使用 GenAI 做玩家聊天内容舆情分析 - aws.amazon.com",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcXAya2l1VzBtTVFpQlVFOE82QkJGOTFGclJSSlpMbE05aHJnczZCR0txTm8xXy1pQmJpVVUtamczWHdnZkY3aVlReFI2WEVrVHJxQWdUdjFxSWtfVDQ4RWw3R3VUT0YtSkdLaWhmSV9ZUlBWbWZIdzhSVlBDRzZZNktrczBuV0tibHlxeE5aN21lLUJvZ2RzRGtyZEc4TFdXSVdybjN2NnRNV0hIV0psejJmRTN4ZFpvdXlGcjExd1h6UDdk?oc=5",
-      "source": "Amazon Web Services (AWS)",
+      "source": "aws.amazon.com",
       "provider": "Google News RSS",
       "query": "小游戏 行业 舆情",
-      "description": "助力游戏运营之使用 GenAI 做玩家聊天内容舆情分析 Amazon Web Services (AWS)",
+      "description": "助力游戏运营之使用 GenAI 做玩家聊天内容舆情分析 aws.amazon.com",
       "publishedAt": "2024-04-19T07:00:00Z",
       "firstSeenAt": "2026-09-03T02:56:11.611540Z",
-      "lastSeenAt": "2026-09-03T02:56:31.151626Z",
-      "collectedAt": "2026-09-03T02:56:31.151626Z",
+      "lastSeenAt": "2026-09-03T03:08:20.039216Z",
+      "collectedAt": "2026-09-03T03:08:20.039216Z",
       "mode": "实时公开RSS"
     },
     {
@@ -615,8 +783,8 @@
       "description": "游戏工委发布《2021年游戏产业舆情生态报告》摘要版 新华网",
       "publishedAt": "2022-05-25T07:00:00Z",
       "firstSeenAt": "2026-09-03T02:56:11.611540Z",
-      "lastSeenAt": "2026-09-03T02:56:31.151626Z",
-      "collectedAt": "2026-09-03T02:56:31.151626Z",
+      "lastSeenAt": "2026-09-03T03:08:20.039216Z",
+      "collectedAt": "2026-09-03T03:08:20.039216Z",
       "mode": "实时公开RSS"
     },
     {
@@ -648,6 +816,20 @@
       "mode": "实时公开RSS"
     },
     {
+      "id": "live-20343b245ee8260777a04e9f",
+      "title": "斗艳斗狠斗甄嬛《甄嬛传》9.16越狱正式上线",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a98e4a33efa403b9322cb5cd44b5433&url=https%3a%2f%2fnews.17173.com%2fcontent%2f09152015%2f153334931.shtml&c=4422022948104545622&mkt=en-us",
+      "source": "17173游戏网",
+      "provider": "Bing News RSS",
+      "query": "梦回甄嬛传 小游戏",
+      "description": "9月16日，《甄嬛传》手游iOS越狱版即将震撼上线！经过不断的测试和完善，全新的《甄嬛传》将在明日与众小主们正式见面。甄嬛之后，再无宫斗！这一次，必不负小主所望，将会带来不一样的甄嬛、不一样的宫斗。 9月16日，《甄嬛传》手游iOS越狱版即将震撼上线 ...",
+      "publishedAt": "2015-09-15T08:33:00Z",
+      "firstSeenAt": "2026-09-03T03:08:19.286543Z",
+      "lastSeenAt": "2026-09-03T03:08:19.286543Z",
+      "collectedAt": "2026-09-03T03:08:19.286543Z",
+      "mode": "实时公开RSS"
+    },
+    {
       "id": "live-677a909248e6b9e1c55725f3",
       "title": "文化舆情第074期游戏市场山寨抄袭成常态乱象如何监管-文化产业频道 - 中国经济网",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0YWlVcEI0RzZQMFNFNHRPQXFwX3pJeXdZU3hVbEUxZFdoWFdpLVlxdExyZmlkS3NLX3BfY2RmTGNWMmNoQXJXX29ueGUzMk5tRkNLVER3TlcxZlU?oc=5",
@@ -657,8 +839,8 @@
       "description": "文化舆情第074期游戏市场山寨抄袭成常态乱象如何监管-文化产业频道 中国经济网",
       "publishedAt": "2014-02-27T09:29:59Z",
       "firstSeenAt": "2026-09-03T02:56:11.611540Z",
-      "lastSeenAt": "2026-09-03T02:56:31.151626Z",
-      "collectedAt": "2026-09-03T02:56:31.151626Z",
+      "lastSeenAt": "2026-09-03T03:08:20.039216Z",
+      "collectedAt": "2026-09-03T03:08:20.039216Z",
       "mode": "实时公开RSS"
     },
     {
@@ -671,8 +853,8 @@
       "description": "文化舆情第052期宫崎骏宣布退休中国动画何时能出大师？-文化产业频道 中国经济网",
       "publishedAt": "2013-09-12T07:27:14Z",
       "firstSeenAt": "2026-09-03T02:56:11.611540Z",
-      "lastSeenAt": "2026-09-03T02:56:11.611540Z",
-      "collectedAt": "2026-09-03T02:56:11.611540Z",
+      "lastSeenAt": "2026-09-03T03:08:20.039216Z",
+      "collectedAt": "2026-09-03T03:08:20.039216Z",
       "mode": "实时公开RSS"
     }
   ]
