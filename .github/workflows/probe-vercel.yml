@@ -1,0 +1,36 @@
+name: Probe Vercel deployment
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/probe-vercel.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Probe immutable and production URLs
+        run: |
+          set +e
+          for base in \
+            "https://tide-public-opinion-minute-nuj0sqfsy-kyirexys-projects.vercel.app" \
+            "https://tide-public-opinion-minute-kyirexys-projects.vercel.app"; do
+            echo "===== $base ====="
+            curl -L -sS -o /tmp/body -D /tmp/headers --max-time 20 "$base/"
+            code=$?
+            echo "curl_exit=$code"
+            sed -n '1,25p' /tmp/headers
+            head -c 300 /tmp/body; echo
+            echo "----- health -----"
+            curl -L -sS -o /tmp/health -D /tmp/hheaders --max-time 20 "$base/api/health?t=$(date +%s)"
+            code=$?
+            echo "curl_exit=$code"
+            sed -n '1,25p' /tmp/hheaders
+            cat /tmp/health; echo
+          done
