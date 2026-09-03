@@ -1,0 +1,19 @@
+use_default_settings: true
+
+general:
+  instance_name: "Tide Public Search"
+
+search:
+  safe_search: 0
+  autocomplete: ""
+  formats:
+    - html
+    - json
+
+server:
+  secret_key: "ephemeral-github-actions-instance"
+  limiter: false
+  image_proxy: true
+
+ui:
+  static_use_hash: true
