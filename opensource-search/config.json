@@ -165,7 +165,32 @@
       }
     ]
   },
-  "feeds": [],
+  "feeds": [
+    {
+      "id": "google-news-game",
+      "name": "Google News · 梦回甄嬛传游戏",
+      "platform": "新闻/媒体",
+      "url": "https://news.google.com/rss/search?q=%22%E6%A2%A6%E5%9B%9E%E7%94%84%E5%AC%9B%E4%BC%A0%22%20%E6%B8%B8%E6%88%8F&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    },
+    {
+      "id": "google-news-issues",
+      "name": "Google News · 体力兑换码评价",
+      "platform": "新闻/媒体",
+      "url": "https://news.google.com/rss/search?q=%22%E6%A2%A6%E5%9B%9E%E7%94%84%E5%AC%9B%E4%BC%A0%22%20%E4%BD%93%E5%8A%9B%20%E5%85%91%E6%8D%A2%E7%A0%81%20%E8%AF%84%E4%BB%B7&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    },
+    {
+      "id": "bing-news-game",
+      "name": "Bing News · 梦回甄嬛传游戏",
+      "platform": "新闻/媒体",
+      "url": "https://www.bing.com/news/search?q=%22%E6%A2%A6%E5%9B%9E%E7%94%84%E5%AC%9B%E4%BC%A0%22%20%E6%B8%B8%E6%88%8F&format=rss"
+    },
+    {
+      "id": "bing-news-issues",
+      "name": "Bing News · 体力兑换码评价",
+      "platform": "新闻/媒体",
+      "url": "https://www.bing.com/news/search?q=%22%E6%A2%A6%E5%9B%9E%E7%94%84%E5%AC%9B%E4%BC%A0%22%20%E4%BD%93%E5%8A%9B%20%E5%85%91%E6%8D%A2%E7%A0%81%20%E8%AF%84%E4%BB%B7&format=rss"
+    }
+  ],
   "retention": {
     "maxItems": 5000
   },
