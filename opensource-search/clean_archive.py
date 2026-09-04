@@ -8,9 +8,10 @@ CONFIG = Path(os.environ.get("DEEPFEED_CONFIG", "opensource-search/config.json")
 OUTPUT = Path(os.environ.get("DEEPFEED_OUTPUT", "data/live.json"))
 
 
-def strict_legacy_relevant(item: dict, project: dict) -> bool:
+def strict_legacy_relevant(item: dict, project: dict, policy: dict) -> bool:
+    main_min = int(policy.get("mainMinScore", 65))
     if item.get("relevanceMethod") == "entity_fingerprint_v3":
-        return item.get("relevanceBucket") == "main" and int(item.get("relevanceScore") or 0) >= 70
+        return item.get("relevanceBucket") == "main" and int(item.get("relevanceScore") or 0) >= main_min
 
     title = str(item.get("title") or "").lower()
     description = str(item.get("description") or item.get("snippet") or "").lower()
@@ -37,6 +38,7 @@ def main() -> int:
     config = json.loads(CONFIG.read_text("utf-8"))
     payload = json.loads(OUTPUT.read_text("utf-8"))
     project = config["project"]
+    policy = config.get("search", {}).get("policy", {})
     before = list(payload.get("items", []))
     kept = []
     removed = []
@@ -46,7 +48,7 @@ def main() -> int:
             or item.get("accessLevel") in {"search_discovered", "搜索发现"}
             or item.get("mode") in {"开源搜索发现", "搜索发现", "精确实体搜索发现"}
         )
-        if not is_search or strict_legacy_relevant(item, project):
+        if not is_search or strict_legacy_relevant(item, project, policy):
             kept.append(item)
         else:
             removed.append(item)
@@ -54,13 +56,15 @@ def main() -> int:
     payload["items"] = kept
     payload["itemCount"] = len(kept)
     payload["cleanedLegacyNoiseThisRun"] = len(removed)
-    payload["relevancePolicy"] = "entity_fingerprint_v3"
-    payload.setdefault("collection", {})["relevancePolicy"] = "entity_fingerprint_v3"
+    payload["relevancePolicy"] = "balanced_recall_v4"
+    payload.setdefault("collection", {})["relevancePolicy"] = "balanced_recall_v4"
+    payload.setdefault("collection", {})["poolPolicy"] = "main + discovery + excluded"
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), "utf-8")
     print(json.dumps({
         "before": len(before),
         "after": len(kept),
         "removedLegacyNoise": len(removed),
+        "mainMinScore": int(policy.get("mainMinScore", 65)),
     }, ensure_ascii=False))
     return 0
 
