@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+  <title>潮汐 · 小游戏舆情 AI 工作台</title>
+  <style>
+    html,body{margin:0;min-height:100%;background:#07101e;color:#f6f8ff;font-family:Inter,"PingFang SC","Microsoft YaHei",sans-serif}
+    .loading{min-height:100vh;display:grid;place-items:center;text-align:center}.card{padding:32px;border:1px solid rgba(255,255,255,.12);border-radius:24px;background:rgba(13,25,43,.82);box-shadow:0 24px 80px rgba(0,0,0,.3)}
+    .dot{width:10px;height:10px;border-radius:50%;background:#61e8b4;display:inline-block;margin-right:8px;box-shadow:0 0 18px rgba(97,232,180,.7)}
+  </style>
+</head>
+<body>
+  <div class="loading"><div class="card"><h1>潮汐 · 小游戏舆情 AI 工作台</h1><p><span class="dot"></span>正在加载公开舆情工作台…</p></div></div>
+  <script>
+    (() => {
+      const nativeFetch = window.fetch.bind(window);
+      const liveUrl = 'https://raw.githubusercontent.com/kyirexy/deepfeed/live-data/live.json';
+      window.fetch = (input, init) => {
+        const value = typeof input === 'string' ? input : (input && input.url) || '';
+        if (value.startsWith('/api/live')) return nativeFetch(liveUrl + '?t=' + Date.now(), { ...(init || {}), cache:'no-store' });
+        if (value.startsWith('/api/health')) return nativeFetch(liveUrl + '?t=' + Date.now(), { ...(init || {}), cache:'no-store' });
+        return nativeFetch(input, init);
+      };
+      nativeFetch('https://raw.githubusercontent.com/kyirexy/deepfeed/main/index.html?t=' + Date.now(), { cache:'no-store' })
+        .then(r => { if (!r.ok) throw new Error('UI upstream ' + r.status); return r.text(); })
+        .then(html => {
+          html = html.replace(/10\s*\*\s*60\s*\*\s*1000/g, '60*1000');
+          document.open();
+          document.write(html);
+          document.close();
+        })
+        .catch(err => {
+          document.body.innerHTML = '<div class="loading"><div class="card"><h1>潮汐</h1><p>工作台加载失败：' + String(err.message || err) + '</p></div></div>';
+        });
+    })();
+  </script>
+</body>
+</html>
