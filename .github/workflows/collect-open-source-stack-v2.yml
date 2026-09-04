@@ -17,7 +17,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: deepfeed-minute-public-collection
+  group: minigame-opinion-minute-public-collection
   cancel-in-progress: false
 
 jobs:
@@ -42,8 +42,8 @@ jobs:
       - name: Enable minute mode in the dashboard
         run: |
           python scripts/enable_minute_mode.py
-          git config user.name "tide-minute-bot"
-          git config user.email "tide-minute-bot@users.noreply.github.com"
+          git config user.name "minigame-opinion-bot"
+          git config user.email "minigame-opinion-bot@users.noreply.github.com"
           git add index.html
           if ! git diff --cached --quiet; then
             git commit -m "feat: enable one-minute live refresh"
@@ -84,8 +84,8 @@ jobs:
           DEEPFEED_OUTPUT: data/live.json
         run: |
           set -euo pipefail
-          git config user.name "tide-minute-bot"
-          git config user.email "tide-minute-bot@users.noreply.github.com"
+          git config user.name "minigame-opinion-bot"
+          git config user.email "minigame-opinion-bot@users.noreply.github.com"
 
           publish_snapshot() {
             local blob tree commit
@@ -99,6 +99,7 @@ jobs:
             started=$(date +%s)
             echo "Minute scan ${slot}/5 started at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             python opensource-search/collect.py
+            python opensource-search/clean_archive.py
             python - <<'PY'
           import json
           from pathlib import Path
@@ -110,6 +111,8 @@ jobs:
               'generatedAt': payload.get('generatedAt'),
               'itemCount': payload.get('itemCount'),
               'acceptedThisRun': payload.get('acceptedThisRun'),
+              'quarantinedThisRun': payload.get('quarantinedThisRun'),
+              'cleanedLegacyNoiseThisRun': payload.get('cleanedLegacyNoiseThisRun'),
           })
           PY
             publish_snapshot
