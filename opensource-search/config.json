@@ -2,13 +2,34 @@
   "project": {
     "id": "mhzhz",
     "name": "梦回甄嬛传",
-    "keywords": [
+    "aliases": [
       "梦回甄嬛传",
-      "梦回·甄嬛传",
+      "梦回·甄嬛传"
+    ],
+    "strongAnchors": [
+      "小游戏",
+      "小程序",
       "小胖橘",
       "广州盈心",
       "北京爱谱雷",
-      "宫廷密录"
+      "墨麒麟",
+      "三七互娱",
+      "番外差事"
+    ],
+    "topicTerms": [
+      "体力",
+      "兑换码",
+      "合成",
+      "剧情",
+      "冷却",
+      "番外",
+      "福利",
+      "闪退",
+      "卡顿",
+      "充值",
+      "退款",
+      "氪金",
+      "好评任务"
     ],
     "excludeKeywords": [
       "东阿阿胶",
@@ -18,65 +39,83 @@
       "影视剪辑",
       "仿妆",
       "影视解说",
-      "原班人马"
+      "原班人马",
+      "深宫曲",
+      "甄嬛传电视剧"
     ]
   },
   "search": {
-    "maxResultsPerQuery": 12,
+    "maxResultsPerQuery": 10,
+    "policy": {
+      "mainMinScore": 70,
+      "quarantineMinScore": 45,
+      "maxQuarantineItems": 300
+    },
     "queries": [
       {
-        "id": "douyin-game",
+        "id": "douyin-exact",
         "platform": "抖音",
         "query": "\"梦回甄嬛传\" 小游戏",
-        "domains": ["douyin.com"]
+        "domains": ["douyin.com"],
+        "pathPrefixes": ["/video/"]
       },
       {
         "id": "douyin-issues",
         "platform": "抖音",
-        "query": "\"梦回甄嬛传\" 体力 兑换码 评价",
-        "domains": ["douyin.com"]
+        "query": "\"梦回甄嬛传\" 体力 兑换码",
+        "domains": ["douyin.com"],
+        "pathPrefixes": ["/video/"]
       },
       {
-        "id": "xiaohongshu-game",
+        "id": "xiaohongshu-exact",
         "platform": "小红书",
         "query": "\"梦回甄嬛传\" 小游戏",
-        "domains": ["xiaohongshu.com"]
+        "domains": ["xiaohongshu.com"],
+        "pathPrefixes": ["/explore/", "/discovery/item/"]
       },
       {
         "id": "xiaohongshu-issues",
         "platform": "小红书",
-        "query": "\"梦回甄嬛传\" 体力 兑换码 好玩吗",
-        "domains": ["xiaohongshu.com"]
+        "query": "\"梦回甄嬛传\" 体力 兑换码",
+        "domains": ["xiaohongshu.com"],
+        "pathPrefixes": ["/explore/", "/discovery/item/"]
       },
       {
-        "id": "bilibili-game",
+        "id": "bilibili-exact",
         "platform": "B站",
-        "query": "\"梦回甄嬛传\" 游戏 实况 测评",
-        "domains": ["bilibili.com", "b23.tv"]
+        "query": "\"梦回甄嬛传\" 小游戏",
+        "domains": ["bilibili.com", "b23.tv"],
+        "pathPrefixes": ["/video/", "/read/", "/opus/"]
       },
       {
         "id": "taptap-game",
         "platform": "TapTap",
-        "query": "\"梦回甄嬛传\" 评价 体力 兑换码",
-        "domains": ["taptap.cn", "taptap.com"]
+        "query": "\"梦回甄嬛传\"",
+        "domains": ["taptap.cn"],
+        "pathPrefixes": ["/app/900993"]
       },
       {
-        "id": "wechat-game",
+        "id": "wechat-exact",
         "platform": "微信公众号",
         "query": "\"梦回甄嬛传\" 小游戏",
-        "domains": ["mp.weixin.qq.com"]
+        "domains": ["mp.weixin.qq.com"],
+        "pathPrefixes": ["/s"]
       },
       {
-        "id": "zhihu-game",
+        "id": "zhihu-exact",
         "platform": "知乎",
-        "query": "\"梦回甄嬛传\" 小游戏 评价",
-        "domains": ["zhihu.com"]
+        "query": "\"梦回甄嬛传\" 小游戏",
+        "domains": ["zhihu.com"],
+        "pathPrefixes": ["/question/", "/p/"],
+        "enabled": false
       },
       {
-        "id": "tieba-game",
+        "id": "tieba-exact",
         "platform": "贴吧",
-        "query": "\"梦回甄嬛传\" 小游戏 评价",
-        "domains": ["tieba.baidu.com"]
+        "query": "\"梦回甄嬛传\" 小游戏",
+        "domains": ["tieba.baidu.com"],
+        "pathPrefixes": ["/p/"],
+        "enabled": false
       }
     ]
   },
