@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "ok": true,
   "mock": false,
-  "generatedAt": "2026-11-01T13:18:07.887463Z",
+  "generatedAt": "2026-11-01T21:59:32.490122Z",
   "collection": {
     "scope": "公开新闻 RSS + SearXNG 跨站搜索 + RSSHub 审核路由",
     "noLogin": true,
@@ -38,23 +38,23 @@
   },
   "stats": {
     "itemCount": 5000,
-    "newItemCount": 85,
+    "newItemCount": 62,
     "excludedItemCount": 1,
     "providerChecks": 27,
-    "providerSuccess": 26,
-    "providerFailure": 1,
+    "providerSuccess": 22,
+    "providerFailure": 5,
     "providerSkipped": 0,
     "byProviderType": {
-      "metasearch": 421,
-      "news_rss": 4433,
+      "metasearch": 423,
+      "news_rss": 4431,
       "rsshub": 110,
       "unknown": 36
     },
     "byPlatform": {
-      "TapTap": 215,
-      "抖音": 214,
+      "TapTap": 216,
+      "抖音": 215,
       "B站": 66,
-      "新闻/行业媒体": 4433,
+      "新闻/行业媒体": 4431,
       "知乎": 8,
       "小红书": 28,
       "未知": 36
@@ -66,10 +66,10 @@
       "providerType": "news_rss",
       "query": "梦回甄嬛传 游戏",
       "platform": "news",
-      "ok": true,
-      "count": 4,
-      "error": null,
-      "elapsedMs": 151
+      "ok": false,
+      "count": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 41",
+      "elapsedMs": 281
     },
     {
       "provider": "Google News RSS",
@@ -77,79 +77,79 @@
       "query": "梦回甄嬛传 游戏",
       "platform": "news",
       "ok": true,
-      "count": 19,
+      "count": 10,
       "error": null,
-      "elapsedMs": 277
+      "elapsedMs": 303
     },
     {
       "provider": "Bing News RSS",
       "providerType": "news_rss",
       "query": "梦回甄嬛传 小游戏",
       "platform": "news",
-      "ok": true,
-      "count": 4,
-      "error": null,
-      "elapsedMs": 126
-    },
-    {
-      "provider": "Google News RSS",
-      "providerType": "news_rss",
-      "query": "梦回甄嬛传 小游戏",
-      "platform": "news",
-      "ok": true,
-      "count": 10,
-      "error": null,
-      "elapsedMs": 246
-    },
-    {
-      "provider": "Bing News RSS",
-      "providerType": "news_rss",
-      "query": "小游戏 行业 舆情",
-      "platform": "news",
-      "ok": true,
-      "count": 11,
-      "error": null,
-      "elapsedMs": 178
-    },
-    {
-      "provider": "Google News RSS",
-      "providerType": "news_rss",
-      "query": "小游戏 行业 舆情",
-      "platform": "news",
-      "ok": true,
-      "count": 10,
-      "error": null,
-      "elapsedMs": 260
-    },
-    {
-      "provider": "Bing News RSS",
-      "providerType": "news_rss",
-      "query": "小游戏 玩家 评价",
-      "platform": "news",
-      "ok": true,
-      "count": 12,
-      "error": null,
-      "elapsedMs": 201
-    },
-    {
-      "provider": "Google News RSS",
-      "providerType": "news_rss",
-      "query": "小游戏 玩家 评价",
-      "platform": "news",
-      "ok": true,
-      "count": 63,
-      "error": null,
-      "elapsedMs": 391
-    },
-    {
-      "provider": "Bing News RSS",
-      "providerType": "news_rss",
-      "query": "小游戏 投诉 风险",
-      "platform": "news",
-      "ok": true,
+      "ok": false,
       "count": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 41",
+      "elapsedMs": 254
+    },
+    {
+      "provider": "Google News RSS",
+      "providerType": "news_rss",
+      "query": "梦回甄嬛传 小游戏",
+      "platform": "news",
+      "ok": true,
+      "count": 10,
       "error": null,
-      "elapsedMs": 124
+      "elapsedMs": 264
+    },
+    {
+      "provider": "Bing News RSS",
+      "providerType": "news_rss",
+      "query": "小游戏 行业 舆情",
+      "platform": "news",
+      "ok": false,
+      "count": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 41",
+      "elapsedMs": 163
+    },
+    {
+      "provider": "Google News RSS",
+      "providerType": "news_rss",
+      "query": "小游戏 行业 舆情",
+      "platform": "news",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "elapsedMs": 267
+    },
+    {
+      "provider": "Bing News RSS",
+      "providerType": "news_rss",
+      "query": "小游戏 玩家 评价",
+      "platform": "news",
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "elapsedMs": 285
+    },
+    {
+      "provider": "Google News RSS",
+      "providerType": "news_rss",
+      "query": "小游戏 玩家 评价",
+      "platform": "news",
+      "ok": true,
+      "count": 64,
+      "error": null,
+      "elapsedMs": 496
+    },
+    {
+      "provider": "Bing News RSS",
+      "providerType": "news_rss",
+      "query": "小游戏 投诉 风险",
+      "platform": "news",
+      "ok": false,
+      "count": 0,
+      "error": "ParseError: not well-formed (invalid token): line 1, column 41",
+      "elapsedMs": 210
     },
     {
       "provider": "Google News RSS",
@@ -157,9 +157,9 @@
       "query": "小游戏 投诉 风险",
       "platform": "news",
       "ok": true,
-      "count": 12,
+      "count": 7,
       "error": null,
-      "elapsedMs": 275
+      "elapsedMs": 368
     },
     {
       "provider": "SearXNG",
@@ -170,7 +170,7 @@
       "count": 12,
       "rawCount": 31,
       "error": null,
-      "elapsedMs": 558
+      "elapsedMs": 806
     },
     {
       "provider": "SearXNG",
@@ -179,9 +179,9 @@
       "platform": "douyin",
       "ok": true,
       "count": 12,
-      "rawCount": 29,
+      "rawCount": 30,
       "error": null,
-      "elapsedMs": 457
+      "elapsedMs": 1405
     },
     {
       "provider": "SearXNG",
@@ -192,7 +192,7 @@
       "count": 0,
       "rawCount": 0,
       "error": null,
-      "elapsedMs": 184
+      "elapsedMs": 258
     },
     {
       "provider": "SearXNG",
@@ -203,7 +203,7 @@
       "count": 0,
       "rawCount": 0,
       "error": null,
-      "elapsedMs": 122
+      "elapsedMs": 139
     },
     {
       "provider": "SearXNG",
@@ -214,7 +214,7 @@
       "count": 1,
       "rawCount": 1,
       "error": null,
-      "elapsedMs": 186
+      "elapsedMs": 183
     },
     {
       "provider": "SearXNG",
@@ -225,7 +225,7 @@
       "count": 0,
       "rawCount": 0,
       "error": null,
-      "elapsedMs": 136
+      "elapsedMs": 144
     },
     {
       "provider": "SearXNG",
@@ -236,7 +236,7 @@
       "count": 12,
       "rawCount": 19,
       "error": null,
-      "elapsedMs": 229
+      "elapsedMs": 238
     },
     {
       "provider": "SearXNG",
@@ -247,7 +247,7 @@
       "count": 12,
       "rawCount": 17,
       "error": null,
-      "elapsedMs": 192
+      "elapsedMs": 215
     },
     {
       "provider": "SearXNG",
@@ -258,7 +258,7 @@
       "count": 0,
       "rawCount": 0,
       "error": null,
-      "elapsedMs": 146
+      "elapsedMs": 257
     },
     {
       "provider": "SearXNG",
@@ -269,7 +269,7 @@
       "count": 0,
       "rawCount": 0,
       "error": null,
-      "elapsedMs": 116
+      "elapsedMs": 200
     },
     {
       "provider": "SearXNG",
@@ -280,7 +280,7 @@
       "count": 0,
       "rawCount": 0,
       "error": null,
-      "elapsedMs": 145
+      "elapsedMs": 137
     },
     {
       "provider": "SearXNG",
@@ -291,7 +291,7 @@
       "count": 0,
       "rawCount": 0,
       "error": null,
-      "elapsedMs": 122
+      "elapsedMs": 206
     },
     {
       "provider": "SearXNG",
@@ -302,7 +302,7 @@
       "count": 0,
       "rawCount": 0,
       "error": null,
-      "elapsedMs": 131
+      "elapsedMs": 122
     },
     {
       "provider": "SearXNG",
@@ -313,7 +313,7 @@
       "count": 0,
       "rawCount": 0,
       "error": null,
-      "elapsedMs": 169
+      "elapsedMs": 235
     },
     {
       "provider": "RSSHub",
@@ -325,7 +325,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "elapsedMs": 1658
+      "elapsedMs": 1772
     },
     {
       "provider": "RSSHub",
@@ -337,7 +337,7 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "elapsedMs": 764
+      "elapsedMs": 495
     },
     {
       "provider": "RSSHub",
@@ -349,7 +349,7 @@
       "ok": false,
       "count": 0,
       "error": "HTTPError: HTTP Error 503: Service Unavailable",
-      "elapsedMs": 334
+      "elapsedMs": 317
     }
   ],
   "itemCount": 5000,
@@ -366,8 +366,8 @@
       "description": "19小时前 ... ... TapTap 梦回甄嬛传社区论坛，这里有完整细致的梦回甄嬛传游戏攻略，精彩繁多的梦回甄嬛传玩家视频，让您在最火爆的游戏社区找到志同道合的游戏 ... 小主何不 ...",
       "publishedAt": null,
       "firstSeenAt": "2026-10-02T05:33:47.974591Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "搜索发现",
       "accessLevel": "搜索发现",
       "platform": "taptap",
@@ -386,7 +386,7 @@
       "isExcluded": false,
       "rawProviderScore": 0.3333333333333333,
       "analysisStatus": "unclassified",
-      "seenCount": 206
+      "seenCount": 208
     },
     {
       "id": "live-54ed79f8bfc42c599812df94",
@@ -400,8 +400,8 @@
       "description": "既能重温旧时光里的爱恨悲欢，也能够拥有属于你自己的宫闱际遇。 目前游戏仍在打磨优化阶段，还有很多内容在持续完善。 社区是我们和大家沟通的重要地方，往后角色爆料、美食风物、剧情片段，都会在这里陆续放出。",
       "publishedAt": null,
       "firstSeenAt": "2026-09-20T20:47:29.861148Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "搜索发现",
       "accessLevel": "搜索发现",
       "platform": "taptap",
@@ -418,9 +418,9 @@
       ],
       "excludedTerms": [],
       "isExcluded": false,
-      "rawProviderScore": 1.0,
+      "rawProviderScore": 0.5,
       "analysisStatus": "unclassified",
-      "seenCount": 186
+      "seenCount": 188
     },
     {
       "id": "live-fca9e609865717b429bae58f",
@@ -434,8 +434,8 @@
       "description": "2026年10月3日 ... 小游戏. 2026 © 抖音. 京ICP备16016397号-3 ... 梦回甄嬛传改写意难平#这也能开播.",
       "publishedAt": null,
       "firstSeenAt": "2026-10-17T10:40:12.347838Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "搜索发现",
       "accessLevel": "搜索发现",
       "platform": "douyin",
@@ -455,7 +455,728 @@
       "isExcluded": false,
       "rawProviderScore": 1.0,
       "analysisStatus": "unclassified",
-      "seenCount": 110
+      "seenCount": 112
+    },
+    {
+      "id": "live-318b920d6ec8064e4dd2e5de",
+      "title": "【朱墙旧事】雪顶红霜- 梦回甄嬛传综合讨论 - TapTap",
+      "url": "https://www.taptap.cn/moment/858827137249969877",
+      "source": "taptap.cn",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "google cse",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
+      "description": "... 澜依的洒脱桀骜，还是她的爱憎分明？ 不妨在评论区聊一聊，本橘可盼着听~. 梦回甄嬛传icon · 梦回甄嬛传. 7.1. 休闲 · 前往论坛 · 梦回甄嬛传封面. 梦回甄嬛传. 7.1. 休闲.",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-23T04:45:43.435188Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "taptap",
+      "platformLabel": "TapTap",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 52,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.1,
+      "analysisStatus": "unclassified",
+      "seenCount": 57
+    },
+    {
+      "id": "live-2d684897c738794399592ff2",
+      "title": "一些反馈- 梦回甄嬛传综合讨论 - TapTap",
+      "url": "https://www.taptap.cn/moment/863356697173821389",
+      "source": "taptap.cn",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "google cse",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
+      "description": "2026年10月24日 ... 一些反馈- 梦回甄嬛传综合讨论- TapTap 梦回甄嬛传论坛. 下载App ... ③兑换码更是没有❗这种小游戏不应该有兑换码吗？人家的小游戏都是每个星期一个 ...",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-26T04:42:57.675563Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "taptap",
+      "platformLabel": "TapTap",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 76,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "小游戏",
+        "游戏",
+        "兑换码"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 1.0,
+      "analysisStatus": "unclassified",
+      "seenCount": 33
+    },
+    {
+      "id": "live-ec529abb793e7f173153dcd6",
+      "title": "后宫闲趣·小厨房｜枣泥山药糕- 梦回甄嬛传 - TapTap",
+      "url": "https://www.taptap.cn/moment/839887944780088623",
+      "source": "taptap.cn",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "google cse",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
+      "description": "... 已揣好爪子，竖起耳朵，一条一条慢慢听。（揣爪蹲守中）. 梦回甄嬛传icon · 梦回甄嬛传. 7.1. 休闲 · 前往论坛 · 梦回甄嬛传封面. 梦回甄嬛传. 7.1. 休闲 · 去论坛查看游戏.",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-26T12:57:01.321822Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "taptap",
+      "platformLabel": "TapTap",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 52,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.16666666666666666,
+      "analysisStatus": "unclassified",
+      "seenCount": 42
+    },
+    {
+      "id": "live-0e392c5cb67b25a04710ddb2",
+      "title": "甄嬛传| TapTap",
+      "url": "https://www.taptap.cn/hashtag/%E7%94%84%E5%AC%9B%E4%BC%A0",
+      "source": "taptap.cn",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "google cse",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
+      "description": "#发现好游戏#甄嬛传#原神#甄嬛传手游#梦回甄嬛传#甄嬛传安陵容可以看到，图片左上角放出的食物图片分明是原神的甜甜花酿鸡，旁边两个也全都是一点都没有改，这种抄袭游戏也 ...",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-23T04:45:43.435188Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "taptap",
+      "platformLabel": "TapTap",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 50,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "游戏"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.1111111111111111,
+      "analysisStatus": "unclassified",
+      "seenCount": 38
+    },
+    {
+      "id": "live-6cf48c129a5c80a38a7206ab",
+      "title": "【闲庭絮语】瑶台仙阙丨专属拼豆图纸，拼出云间仙境 - TapTap",
+      "url": "https://www.taptap.cn/moment/862429711240792132",
+      "source": "taptap.cn",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "google cse",
+      "query": "\"梦回甄嬛传\" 小游戏 site:taptap.cn",
+      "description": "2026年10月22日 ... 小主们若拼好了瑶台仙阙，不妨在评论区晒出你的拼豆成品，. 或聊聊你在云海间邂逅的景致趣事，与本橘同享这一方仙境~. 梦回甄嬛传icon · 梦回甄嬛传.",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-25T11:22:44.748395Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "taptap",
+      "platformLabel": "TapTap",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 42,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.125,
+      "analysisStatus": "unclassified",
+      "seenCount": 19
+    },
+    {
+      "id": "live-79d493935e8f063b9a293008",
+      "title": "空格之境-小鹿_游戏热门视频 - Bilibili",
+      "url": "https://www.bilibili.com/video/BV1NsxT68EQS",
+      "source": "bilibili.com",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "google cse",
+      "query": "\"梦回甄嬛传\" 小游戏 site:bilibili.com",
+      "description": "6天前 ... App. 火人冲冲冲-小千. 火人冲冲冲-小懒. 7 0. 08:56. App. 火人冲冲冲-小懒. 梦回甄嬛传-小雪. 9 0. 10:03. App. 梦回甄嬛传-小雪. 梦回甄嬛传-小初.",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-30T05:43:32.732083Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "bilibili",
+      "platformLabel": "B站",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 50,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "游戏"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 1.0,
+      "analysisStatus": "unclassified",
+      "seenCount": 9
+    },
+    {
+      "id": "live-8423e2e95f22c6b1de74c13c",
+      "title": "热门古风类手游大全 - TapTap",
+      "url": "https://www.taptap.cn/tag/%E5%8F%A4%E9%A3%8E",
+      "source": "taptap.cn",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "google cse",
+      "query": "\"梦回甄嬛传\" 小游戏 site:taptap.cn",
+      "description": "TapTap 为您推荐热门古风类手游，其中的每一款古风类游戏， ... 女性向· 合成· 古风. 7.1. 梦回甄嬛传icon · 梦回甄嬛传. 7.1. 女性向合成古风.",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-30T22:16:13.971666Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "taptap",
+      "platformLabel": "TapTap",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 58,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "游戏",
+        "合成"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.1111111111111111,
+      "analysisStatus": "unclassified",
+      "seenCount": 7
+    },
+    {
+      "id": "live-e289920f1c9167b467198b2e",
+      "title": "梦回甄嬛传综合讨论 - TapTap",
+      "url": "https://www.taptap.cn/moment/864124022495907008?group_id=1334973",
+      "source": "taptap.cn",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "google cse",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
+      "description": "13 小时前12 浏览. 梦回甄嬛传icon · 梦回甄嬛传. 7.1. 休闲 · 前往论坛 · 梦回甄嬛传封面 · 梦回甄嬛传. 7.1. 休闲 · 去论坛查看游戏 · 合成小鸟的任务不用着急截图.",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-31T12:22:17.463782Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "taptap",
+      "platformLabel": "TapTap",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 68,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "游戏",
+        "合成"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.25,
+      "analysisStatus": "unclassified",
+      "seenCount": 10
+    },
+    {
+      "id": "live-0723ede44a08224e123d25c6",
+      "title": "【兑换码】活动新讯丨暖阁添香，宫中新事频传 - TapTap",
+      "url": "https://www.taptap.cn/moment/862738099556321388",
+      "source": "taptap.cn",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "google cse",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
+      "description": "2026年10月23日 ... 请复制上方兑换码-前往游戏内-点击右上角-兑换码-输入兑换码即可领取福利礼包！ 梦回甄嬛传icon · 梦回甄嬛传. 7.3. 休闲 · 前往论坛 · 梦回甄嬛传封面.",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-25T11:22:44.748395Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "taptap",
+      "platformLabel": "TapTap",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 58,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "游戏",
+        "兑换码"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.08333333333333333,
+      "analysisStatus": "unclassified",
+      "seenCount": 21
+    },
+    {
+      "id": "live-fe42b9b45e99eb2b45b5d0aa",
+      "title": "【闲庭絮语】寒色初临，霜降祝福寄安康- 梦回甄嬛传 - TapTap",
+      "url": "https://www.taptap.cn/moment/862804920074505442",
+      "source": "taptap.cn",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "google cse",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
+      "description": "2026年10月23日 ... ... 小主游玩尽顺遂， ... ☀️愿诸位小主游玩尽顺遂，寒天有暖、步步生光。 梦回甄嬛传icon · 梦回甄嬛传.",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-31T21:30:18.373883Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "taptap",
+      "platformLabel": "TapTap",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 68,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "游戏",
+        "小胖橘"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.125,
+      "analysisStatus": "unclassified",
+      "seenCount": 8
+    },
+    {
+      "id": "live-3120d0699540a8a231c8d9db",
+      "title": "梦回甄嬛传小游戏入口来啦，点击我视频左下角的甄嬛传小 ...",
+      "url": "https://www.douyin.com/video/7702280576862080306",
+      "source": "douyin.com",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "duckduckgo",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:douyin.com",
+      "description": "梦回甄嬛传小游戏入口来啦，点击我视频左下角的甄嬛传小游戏入口进去就可以玩了#梦回甄嬛传小游戏入口#梦回甄嬛传小程序入口#梦回甄嬛传游戏入口#梦回甄嬛传入口#梦回甄嬛传官方入口 #甄嬛传之浮生一梦 #抖音小游戏 #你就是甄嬛 - 这里👆👆一键玩同款于20261030发布在抖音，已经收获了2039个 ...",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-30T05:43:32.732083Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "douyin",
+      "platformLabel": "抖音",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 68,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "小游戏",
+        "游戏"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.2,
+      "analysisStatus": "unclassified",
+      "seenCount": 12
+    },
+    {
+      "id": "live-abd7b0d12b6389af86bad343",
+      "title": "梦回甄嬛传小程序入口来啦，点击我视频左下角的甄嬛传小 ...",
+      "url": "https://www.douyin.com/video/7702280396917968191",
+      "source": "douyin.com",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "duckduckgo",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:douyin.com",
+      "description": "梦回甄嬛传小程序入口来啦，点击我视频左下角的甄嬛传小游戏入口进去就可以玩了#梦回甄嬛传小程序入口#梦回甄嬛传小游戏入口#梦回甄嬛传游戏入口#梦回甄嬛传官方入口#梦回甄嬛传抖音小游戏入口 #甄嬛传之浮生一梦 #抖音小游戏 #你就是甄嬛 - 这里👆👆 ...",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-30T12:50:31.879940Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "douyin",
+      "platformLabel": "抖音",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 68,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "小游戏",
+        "游戏"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.25,
+      "analysisStatus": "unclassified",
+      "seenCount": 14
+    },
+    {
+      "id": "live-f8ffb879c9fd48f2b3f44dbd",
+      "title": "梦回甄嬛传-小慵的抖音 - 抖音",
+      "url": "https://www.douyin.com/user/MS4wLjABAAAAuuJu2nkU9nxWv3BwH643s28FTapMpGdRF8UrLZKTd5afktQG_06BvoXO__-_f8Ex",
+      "source": "douyin.com",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "duckduckgo",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:douyin.com",
+      "description": "梦回甄嬛传-小慵的抖音主页、视频、合集以及作品的粉丝量、点赞量。 来抖音，记录美好生活!",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-30T12:50:31.879940Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "douyin",
+      "platformLabel": "抖音",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 52,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.5,
+      "analysisStatus": "unclassified",
+      "seenCount": 9
+    },
+    {
+      "id": "live-fb8e3c252f496003545f4d9f",
+      "title": "梦回甄嬛传新活动来啦!!! #梦回甄嬛传 #抖音小游戏 #甄嬛 ...",
+      "url": "https://www.douyin.com/video/7702321833299521186",
+      "source": "douyin.com",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "duckduckgo",
+      "query": "\"梦回甄嬛传\" 小游戏 site:douyin.com",
+      "description": "梦回甄嬛传新活动来啦! #梦回甄嬛传 #抖音小游戏 #甄嬛传 #小游戏 #解压小游戏 - 悦动于20261030发布在抖音，已经收获了36个喜欢，来抖音，记录美好生活!",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-30T22:16:13.971666Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "douyin",
+      "platformLabel": "抖音",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 68,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "小游戏",
+        "游戏"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.3333333333333333,
+      "analysisStatus": "unclassified",
+      "seenCount": 6
+    },
+    {
+      "id": "live-46165617689bb6a0dc730254",
+      "title": "梦回紫禁城，甄嬛传正版授权游戏，小主靠合成步步高升!",
+      "url": "https://www.douyin.com/video/7702410648847797555",
+      "source": "douyin.com",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "duckduckgo",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:douyin.com",
+      "description": "梦回紫禁城，甄嬛传正版授权游戏，小主靠合成步步高升! - 梦回甄嬛传于20261030发布在抖音，已经收获了2.9万个喜欢，来抖音，记录美好生活!",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-30T22:16:13.971666Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "douyin",
+      "platformLabel": "抖音",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 58,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "游戏",
+        "合成"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 1.0,
+      "analysisStatus": "unclassified",
+      "seenCount": 7
+    },
+    {
+      "id": "live-45851dc1296bed8eb23e5da0",
+      "title": "甄嬛传正版授权游戏!合成闯关，从小宫女逆袭成熹贵妃!",
+      "url": "https://www.douyin.com/video/7698223443262655807",
+      "source": "douyin.com",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "duckduckgo",
+      "query": "\"梦回甄嬛传\" 小游戏 site:douyin.com",
+      "description": "甄嬛传正版授权游戏! 合成闯关，从小宫女逆袭成熹贵妃! 赞 抢首评 收藏 分享 举报 发布时间：2026-10-19 11:58 全部评论 大家都在搜： 梦回甄嬛传 粉丝3.4万获赞2.7万 关注",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-19T13:08:39.054781Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "douyin",
+      "platformLabel": "抖音",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 58,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "游戏",
+        "合成"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.25,
+      "analysisStatus": "unclassified",
+      "seenCount": 42
+    },
+    {
+      "id": "live-096d4ac8d64e9777a812c363",
+      "title": "求解- 梦回甄嬛传综合讨论 - TapTap",
+      "url": "https://www.taptap.cn/moment/861277999968813059",
+      "source": "taptap.cn",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "google cse",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
+      "description": "2026年10月19日 ... 这游戏没有办法选择新区吗？玩到5级新手7天福利和任务都没有. 梦回甄嬛传icon. 梦回甄嬛传. 7.2. 休闲 · 前往论坛. 评论. 相关. 只看作者.",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-19T22:19:45.307703Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "taptap",
+      "platformLabel": "TapTap",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 60,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "游戏"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.2,
+      "analysisStatus": "unclassified",
+      "seenCount": 30
+    },
+    {
+      "id": "live-b1728950510f755e7c071b6a",
+      "title": "9月小游戏百强榜：微信畅销榜零新游，抖音热玩榜10款新品 - TapTap",
+      "url": "https://www.taptap.cn/moment/860300993118601928",
+      "source": "taptap.cn",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "google cse",
+      "query": "\"梦回甄嬛传\" 小游戏 site:taptap.cn",
+      "description": "18小时前 ... 热玩榜是新品主阵地，10款新进榜，有《梦回甄嬛传》《这就是谐音梗》《同学来改作业》等游戏，横跨宫斗、梗玩、文字找茬等多个细分品类。本期抖音买量百强 ...",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-22T17:08:15.859826Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "taptap",
+      "platformLabel": "TapTap",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 58,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "小游戏",
+        "游戏"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.08333333333333333,
+      "analysisStatus": "unclassified",
+      "seenCount": 12
+    },
+    {
+      "id": "live-9ccb88445fbf3e73e3925459",
+      "title": "【闲庭絮语】疏桐露冷，寒菊秋黄- 梦回甄嬛传 - TapTap",
+      "url": "https://www.taptap.cn/moment/857352717327141103",
+      "source": "taptap.cn",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "google cse",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
+      "description": "... 小主得闲便来叙叙～. 天凉时节，愿小主衣暖食安。 梦回甄嬛传icon · 梦回甄嬛传. 7.3. 休闲 · 前往论坛 · 梦回甄嬛传封面 · 梦回甄嬛传. 7.3. 休闲 · 去论坛查看游戏.",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-13T22:42:43.714437Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "taptap",
+      "platformLabel": "TapTap",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 68,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "游戏",
+        "小胖橘"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.14285714285714285,
+      "analysisStatus": "unclassified",
+      "seenCount": 119
+    },
+    {
+      "id": "live-9bbb2b3b3ba453a8e322955e",
+      "title": "十几种方法，快速获得体力! #合成游戏#梦回甄嬛传#二合 ...",
+      "url": "https://www.douyin.com/video/7693492931507932435",
+      "source": "douyin.com",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "duckduckgo",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:douyin.com",
+      "description": "十几种方法，快速获得体力! #合成游戏 #梦回甄嬛传 #二合游戏 #女生游戏 #合成 - 梦回甄嬛传-甜甜于20261006发布在抖音，已经收获了1278个喜欢，来抖音，记录美好生活!",
+      "publishedAt": null,
+      "firstSeenAt": "2026-11-01T21:59:32.490122Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "douyin",
+      "platformLabel": "抖音",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 76,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "游戏",
+        "合成",
+        "体力"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.3333333333333333,
+      "analysisStatus": "unclassified",
+      "seenCount": 1
+    },
+    {
+      "id": "live-dc806212df7d1f3be8aa3120",
+      "title": "【朱墙旧事】后宫服饰一览丨金册所至，步步皆阶- 梦回甄嬛传 - TapTap",
+      "url": "https://www.taptap.cn/moment/856142589064122033",
+      "source": "taptap.cn",
+      "provider": "SearXNG",
+      "providerType": "metasearch",
+      "engine": "google cse",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
+      "description": "一起来评论区聊聊吧~. 表情回应. 梦回甄嬛传icon. 梦回甄嬛传. 7.1. 女性向合成古风 · 前往论坛. 评论1. 相关. 只看作者. 最热. 登录 后发表回复并参与互动. 去异世界冒险 ...",
+      "publishedAt": null,
+      "firstSeenAt": "2026-11-01T21:59:32.490122Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "搜索发现",
+      "accessLevel": "搜索发现",
+      "platform": "taptap",
+      "platformLabel": "TapTap",
+      "gameId": "mhzhz",
+      "gameName": "梦回甄嬛传",
+      "relevanceScore": 60,
+      "isRelevant": true,
+      "matchedAliases": [
+        "梦回甄嬛传"
+      ],
+      "matchedTerms": [
+        "合成"
+      ],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": 0.09090909090909091,
+      "analysisStatus": "unclassified",
+      "seenCount": 1
     },
     {
       "id": "live-2e298ef33edd9658562cfabc",
@@ -492,553 +1213,6 @@
       "seenCount": 84
     },
     {
-      "id": "live-318b920d6ec8064e4dd2e5de",
-      "title": "【朱墙旧事】雪顶红霜- 梦回甄嬛传综合讨论 - TapTap",
-      "url": "https://www.taptap.cn/moment/858827137249969877",
-      "source": "taptap.cn",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "google cse",
-      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
-      "description": "... 澜依的洒脱桀骜，还是她的爱憎分明？ 不妨在评论区聊一聊，本橘可盼着听~. 梦回甄嬛传icon · 梦回甄嬛传. 7.1. 休闲 · 前往论坛 · 梦回甄嬛传封面. 梦回甄嬛传. 7.1. 休闲.",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-23T04:45:43.435188Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "taptap",
-      "platformLabel": "TapTap",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 52,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.08333333333333333,
-      "analysisStatus": "unclassified",
-      "seenCount": 56
-    },
-    {
-      "id": "live-2d684897c738794399592ff2",
-      "title": "一些反馈- 梦回甄嬛传综合讨论 - TapTap",
-      "url": "https://www.taptap.cn/moment/863356697173821389",
-      "source": "taptap.cn",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "google cse",
-      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
-      "description": "2026年10月24日 ... 一些反馈- 梦回甄嬛传综合讨论- TapTap 梦回甄嬛传论坛. 下载App ... ③兑换码更是没有❗这种小游戏不应该有兑换码吗？人家的小游戏都是每个星期一个 ...",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-26T04:42:57.675563Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "taptap",
-      "platformLabel": "TapTap",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 76,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [
-        "小游戏",
-        "游戏",
-        "兑换码"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.5,
-      "analysisStatus": "unclassified",
-      "seenCount": 31
-    },
-    {
-      "id": "live-ec529abb793e7f173153dcd6",
-      "title": "后宫闲趣·小厨房｜枣泥山药糕- 梦回甄嬛传 - TapTap",
-      "url": "https://www.taptap.cn/moment/839887944780088623",
-      "source": "taptap.cn",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "google cse",
-      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
-      "description": "... 已揣好爪子，竖起耳朵，一条一条慢慢听。（揣爪蹲守中）. 梦回甄嬛传icon · 梦回甄嬛传. 7.1. 休闲 · 前往论坛 · 梦回甄嬛传封面. 梦回甄嬛传. 7.1. 休闲 · 去论坛查看游戏.",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-26T12:57:01.321822Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "taptap",
-      "platformLabel": "TapTap",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 52,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.125,
-      "analysisStatus": "unclassified",
-      "seenCount": 40
-    },
-    {
-      "id": "live-0e392c5cb67b25a04710ddb2",
-      "title": "甄嬛传| TapTap",
-      "url": "https://www.taptap.cn/hashtag/%E7%94%84%E5%AC%9B%E4%BC%A0",
-      "source": "taptap.cn",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "google cse",
-      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
-      "description": "#发现好游戏#甄嬛传#原神#甄嬛传手游#梦回甄嬛传#甄嬛传安陵容可以看到，图片左上角放出的食物图片分明是原神的甜甜花酿鸡，旁边两个也全都是一点都没有改，这种抄袭游戏也 ...",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-23T04:45:43.435188Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "taptap",
-      "platformLabel": "TapTap",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 50,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.16666666666666666,
-      "analysisStatus": "unclassified",
-      "seenCount": 36
-    },
-    {
-      "id": "live-6cf48c129a5c80a38a7206ab",
-      "title": "【闲庭絮语】瑶台仙阙丨专属拼豆图纸，拼出云间仙境 - TapTap",
-      "url": "https://www.taptap.cn/moment/862429711240792132",
-      "source": "taptap.cn",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "google cse",
-      "query": "\"梦回甄嬛传\" 小游戏 site:taptap.cn",
-      "description": "2026年10月22日 ... 小主们若拼好了瑶台仙阙，不妨在评论区晒出你的拼豆成品，. 或聊聊你在云海间邂逅的景致趣事，与本橘同享这一方仙境~. 梦回甄嬛传icon · 梦回甄嬛传.",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-25T11:22:44.748395Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "taptap",
-      "platformLabel": "TapTap",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 42,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.125,
-      "analysisStatus": "unclassified",
-      "seenCount": 18
-    },
-    {
-      "id": "live-79d493935e8f063b9a293008",
-      "title": "空格之境-小鹿_游戏热门视频 - Bilibili",
-      "url": "https://www.bilibili.com/video/BV1NsxT68EQS",
-      "source": "bilibili.com",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "google cse",
-      "query": "\"梦回甄嬛传\" 小游戏 site:bilibili.com",
-      "description": "5天前 ... App. 火人冲冲冲-小千. 火人冲冲冲-小懒. 7 0. 08:56. App. 火人冲冲冲-小懒. 梦回甄嬛传-小雪. 9 0. 10:03. App. 梦回甄嬛传-小雪. 梦回甄嬛传-小初.",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-30T05:43:32.732083Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "bilibili",
-      "platformLabel": "B站",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 50,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 1.0,
-      "analysisStatus": "unclassified",
-      "seenCount": 8
-    },
-    {
-      "id": "live-8423e2e95f22c6b1de74c13c",
-      "title": "热门古风类手游大全 - TapTap",
-      "url": "https://www.taptap.cn/tag/%E5%8F%A4%E9%A3%8E",
-      "source": "taptap.cn",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "google cse",
-      "query": "\"梦回甄嬛传\" 小游戏 site:taptap.cn",
-      "description": "TapTap 为您推荐热门古风类手游，其中的每一款古风类游戏， ... 女性向· 合成· 古风. 7.1. 梦回甄嬛传icon · 梦回甄嬛传. 7.1. 女性向合成古风.",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-30T22:16:13.971666Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "taptap",
-      "platformLabel": "TapTap",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 58,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [
-        "游戏",
-        "合成"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.1111111111111111,
-      "analysisStatus": "unclassified",
-      "seenCount": 6
-    },
-    {
-      "id": "live-e289920f1c9167b467198b2e",
-      "title": "梦回甄嬛传综合讨论 - TapTap",
-      "url": "https://www.taptap.cn/moment/864124022495907008?group_id=1334973",
-      "source": "taptap.cn",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "google cse",
-      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
-      "description": "13 小时前12 浏览. 梦回甄嬛传icon · 梦回甄嬛传. 7.1. 休闲 · 前往论坛 · 梦回甄嬛传封面 · 梦回甄嬛传. 7.1. 休闲 · 去论坛查看游戏 · 合成小鸟的任务不用着急截图.",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-31T12:22:17.463782Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "taptap",
-      "platformLabel": "TapTap",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 68,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [
-        "游戏",
-        "合成"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.2,
-      "analysisStatus": "unclassified",
-      "seenCount": 8
-    },
-    {
-      "id": "live-0723ede44a08224e123d25c6",
-      "title": "【兑换码】活动新讯丨暖阁添香，宫中新事频传 - TapTap",
-      "url": "https://www.taptap.cn/moment/862738099556321388",
-      "source": "taptap.cn",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "google cse",
-      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
-      "description": "2026年10月23日 ... 请复制上方兑换码-前往游戏内-点击右上角-兑换码-输入兑换码即可领取福利礼包！ 梦回甄嬛传icon · 梦回甄嬛传. 7.3. 休闲 · 前往论坛 · 梦回甄嬛传封面.",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-25T11:22:44.748395Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "taptap",
-      "platformLabel": "TapTap",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 58,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [
-        "游戏",
-        "兑换码"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.09090909090909091,
-      "analysisStatus": "unclassified",
-      "seenCount": 19
-    },
-    {
-      "id": "live-fe42b9b45e99eb2b45b5d0aa",
-      "title": "【闲庭絮语】寒色初临，霜降祝福寄安康- 梦回甄嬛传 - TapTap",
-      "url": "https://www.taptap.cn/moment/862804920074505442",
-      "source": "taptap.cn",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "google cse",
-      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
-      "description": "2026年10月23日 ... ... 小主游玩尽顺遂， ... ☀️愿诸位小主游玩尽顺遂，寒天有暖、步步生光。 梦回甄嬛传icon · 梦回甄嬛传.",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-31T21:30:18.373883Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "taptap",
-      "platformLabel": "TapTap",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 68,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [
-        "游戏",
-        "小胖橘"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.1,
-      "analysisStatus": "unclassified",
-      "seenCount": 6
-    },
-    {
-      "id": "live-3120d0699540a8a231c8d9db",
-      "title": "梦回甄嬛传小游戏入口来啦，点击我视频左下角的甄嬛传小 ...",
-      "url": "https://www.douyin.com/video/7702280576862080306",
-      "source": "douyin.com",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "duckduckgo",
-      "query": "\"梦回甄嬛传\" 小游戏 site:douyin.com",
-      "description": "梦回甄嬛传小游戏入口来啦，点击我视频左下角的甄嬛传小游戏入口进去就可以玩了#梦回甄嬛传小游戏入口#梦回甄嬛传小程序入口#梦回甄嬛传游戏入口#梦回甄嬛传入口#梦回甄嬛传官方入口 #甄嬛传之浮生一梦 #抖音小游戏 #你就是甄嬛 - 这里👆👆一键玩同款于20261030发布在抖音，已经收获了2039个 ...",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-30T05:43:32.732083Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "douyin",
-      "platformLabel": "抖音",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 68,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [
-        "小游戏",
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.5,
-      "analysisStatus": "unclassified",
-      "seenCount": 10
-    },
-    {
-      "id": "live-abd7b0d12b6389af86bad343",
-      "title": "梦回甄嬛传小程序入口来啦，点击我视频左下角的甄嬛传小 ...",
-      "url": "https://www.douyin.com/video/7702280396917968191",
-      "source": "douyin.com",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "duckduckgo",
-      "query": "\"梦回甄嬛传\" 游戏 评价 site:douyin.com",
-      "description": "梦回甄嬛传小程序入口来啦，点击我视频左下角的甄嬛传小游戏入口进去就可以玩了#梦回甄嬛传小程序入口#梦回甄嬛传小游戏入口#梦回甄嬛传游戏入口#梦回甄嬛传官方入口#梦回甄嬛传抖音小游戏入口 #甄嬛传之浮生一梦 #抖音小游戏 #你就是甄嬛 - 这里 ...",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-30T12:50:31.879940Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "douyin",
-      "platformLabel": "抖音",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 68,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [
-        "小游戏",
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.25,
-      "analysisStatus": "unclassified",
-      "seenCount": 12
-    },
-    {
-      "id": "live-f8ffb879c9fd48f2b3f44dbd",
-      "title": "梦回甄嬛传-小慵的抖音 - 抖音",
-      "url": "https://www.douyin.com/user/MS4wLjABAAAAuuJu2nkU9nxWv3BwH643s28FTapMpGdRF8UrLZKTd5afktQG_06BvoXO__-_f8Ex",
-      "source": "douyin.com",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "duckduckgo",
-      "query": "\"梦回甄嬛传\" 游戏 评价 site:douyin.com",
-      "description": "梦回甄嬛传-小慵的抖音主页、视频、合集以及作品的粉丝量、点赞量。 来抖音，记录美好生活!",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-30T12:50:31.879940Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "douyin",
-      "platformLabel": "抖音",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 52,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.3333333333333333,
-      "analysisStatus": "unclassified",
-      "seenCount": 7
-    },
-    {
-      "id": "live-fb8e3c252f496003545f4d9f",
-      "title": "梦回甄嬛传新活动来啦!!! #梦回甄嬛传 #抖音小游戏 #甄嬛 ...",
-      "url": "https://www.douyin.com/video/7702321833299521186",
-      "source": "douyin.com",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "duckduckgo",
-      "query": "\"梦回甄嬛传\" 小游戏 site:douyin.com",
-      "description": "梦回甄嬛传新活动来啦! #梦回甄嬛传 #抖音小游戏 #甄嬛传 #小游戏 #解压小游戏 - 悦动于20261030发布在抖音，已经收获了36个喜欢，来抖音，记录美好生活!",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-30T22:16:13.971666Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "douyin",
-      "platformLabel": "抖音",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 68,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [
-        "小游戏",
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.3333333333333333,
-      "analysisStatus": "unclassified",
-      "seenCount": 5
-    },
-    {
-      "id": "live-46165617689bb6a0dc730254",
-      "title": "梦回紫禁城，甄嬛传正版授权游戏，小主靠合成步步高升!",
-      "url": "https://www.douyin.com/video/7702410648847797555",
-      "source": "douyin.com",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "duckduckgo",
-      "query": "\"梦回甄嬛传\" 游戏 评价 site:douyin.com",
-      "description": "梦回紫禁城，甄嬛传正版授权游戏，小主靠合成步步高升! - 梦回甄嬛传于20261030发布在抖音，已经收获了2.9万个喜欢，来抖音，记录美好生活!",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-30T22:16:13.971666Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "douyin",
-      "platformLabel": "抖音",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 58,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [
-        "游戏",
-        "合成"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 1.0,
-      "analysisStatus": "unclassified",
-      "seenCount": 5
-    },
-    {
-      "id": "live-45851dc1296bed8eb23e5da0",
-      "title": "甄嬛传正版授权游戏!合成闯关，从小宫女逆袭成熹贵妃!",
-      "url": "https://www.douyin.com/video/7698223443262655807",
-      "source": "douyin.com",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "duckduckgo",
-      "query": "\"梦回甄嬛传\" 小游戏 site:douyin.com",
-      "description": "甄嬛传正版授权游戏! 合成闯关，从小宫女逆袭成熹贵妃! 赞 抢首评 收藏 分享 举报 发布时间：2026-10-19 11:58 全部评论 大家都在搜： 梦回甄嬛传 粉丝3.4万获赞2.7万 关注",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-19T13:08:39.054781Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "douyin",
-      "platformLabel": "抖音",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 58,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [
-        "游戏",
-        "合成"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.2,
-      "analysisStatus": "unclassified",
-      "seenCount": 41
-    },
-    {
       "id": "live-c1021781857f067c401c4a39",
       "title": "万万没想到!梦回甄嬛传，解锁嬛嬛别样结局~ - 抖音",
       "url": "https://www.douyin.com/video/7692313985235815726",
@@ -1073,40 +1247,6 @@
       "seenCount": 50
     },
     {
-      "id": "live-096d4ac8d64e9777a812c363",
-      "title": "求解- 梦回甄嬛传综合讨论 - TapTap",
-      "url": "https://www.taptap.cn/moment/861277999968813059",
-      "source": "taptap.cn",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "google cse",
-      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
-      "description": "2026年10月19日 ... 这游戏没有办法选择新区吗？玩到5级新手7天福利和任务都没有. 梦回甄嬛传icon. 梦回甄嬛传. 7.2. 休闲 · 前往论坛. 评论. 相关. 只看作者.",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-19T22:19:45.307703Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "taptap",
-      "platformLabel": "TapTap",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 60,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.14285714285714285,
-      "analysisStatus": "unclassified",
-      "seenCount": 29
-    },
-    {
       "id": "live-2e263ec299e546d138935ebf",
       "title": "梦回甄嬛传国庆节新增兑换码大全。新增兑换码：琼台拾晚香 ...",
       "url": "https://www.douyin.com/note/7692409702197497098",
@@ -1139,41 +1279,6 @@
       "rawProviderScore": 0.2,
       "analysisStatus": "unclassified",
       "seenCount": 6
-    },
-    {
-      "id": "live-b1728950510f755e7c071b6a",
-      "title": "9月小游戏百强榜：微信畅销榜零新游，抖音热玩榜10款新品 - TapTap",
-      "url": "https://www.taptap.cn/moment/860300993118601928",
-      "source": "taptap.cn",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "google cse",
-      "query": "\"梦回甄嬛传\" 小游戏 site:taptap.cn",
-      "description": "18小时前 ... 热玩榜是新品主阵地，10款新进榜，有《梦回甄嬛传》《这就是谐音梗》《同学来改作业》等游戏，横跨宫斗、梗玩、文字找茬等多个细分品类。本期抖音买量百强 ...",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-22T17:08:15.859826Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "taptap",
-      "platformLabel": "TapTap",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 58,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [
-        "小游戏",
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.08333333333333333,
-      "analysisStatus": "unclassified",
-      "seenCount": 11
     },
     {
       "id": "live-5737198906e7774f4bbea96b",
@@ -1221,8 +1326,8 @@
       "description": "随着2026年10月接近尾声，Steam 扩充免费游戏库 Notebookcheck CN",
       "publishedAt": "2026-11-01T08:55:00Z",
       "firstSeenAt": "2026-11-01T13:18:07.887463Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -1237,7 +1342,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 1
+      "seenCount": 2
     },
     {
       "id": "live-45a0fc2f98375f593447c3ae",
@@ -1421,8 +1526,8 @@
       "description": "未知机构:《广发传媒互联网三七互娱26Q3业绩要点研报》 发现报告",
       "publishedAt": "2026-11-01T03:41:06Z",
       "firstSeenAt": "2026-11-01T13:18:07.887463Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -1439,7 +1544,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 1
+      "seenCount": 2
     },
     {
       "id": "live-a8b7c971f5f5b4a7b6929cba",
@@ -1555,8 +1660,8 @@
       "description": "就这样对充钱的冤大头",
       "publishedAt": "2026-10-31T16:37:31Z",
       "firstSeenAt": "2026-11-01T13:18:07.887463Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -1573,7 +1678,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 1
+      "seenCount": 2
     },
     {
       "id": "live-1dbe92f9b6ee725541891e30",
@@ -1789,8 +1894,8 @@
       "description": "投资收益波动之下，三七互娱第三季度由盈转亏 国际金融报",
       "publishedAt": "2026-10-30T14:48:00Z",
       "firstSeenAt": "2026-10-31T05:36:23.156582Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -1807,7 +1912,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 5
+      "seenCount": 6
     },
     {
       "id": "live-f6b7c56e83d4a53b1d8da91a",
@@ -2101,6 +2206,36 @@
       "seenCount": 1
     },
     {
+      "id": "live-ad81daf44ecd420c02a63b6e",
+      "title": "新款国产3A大作《影之刃零》发售24小时超2.6万玩家好评如潮！",
+      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ae7b64646bc4a6496fd72bfe2a9e379&url=https%3A%2F%2Fwww.sohu.com%2Fa%2F1094848976_122001004&c=17350595181719986557&mkt=en-us",
+      "source": "bing.com",
+      "provider": "Bing News RSS",
+      "providerType": "news_rss",
+      "engine": null,
+      "query": "小游戏 玩家 评价",
+      "description": "10月30日上午10时，备受期待的国产3A大作《影之刃零》在Steam平台正式发售，令人惊喜的是，游戏上线仅24小时便吸引了超过2.6万名玩家给予评价，其中高达83%的评价为好评，整体评价被赞为“特别好评”。这一成绩无疑为国产游戏市场注入了一剂强心针，也让玩家们对未来的国产游戏充满期待。 《影之刃零》是一款以黑暗武侠为主题的动作冒险游戏，开发商北京灵游坊网络科技有限公司在业内已小有名气。游戏的创始 ...",
+      "publishedAt": "2026-10-30T05:14:00Z",
+      "firstSeenAt": "2026-11-01T21:59:32.490122Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "新闻 RSS",
+      "accessLevel": "新闻 RSS",
+      "platform": "news",
+      "platformLabel": "新闻/行业媒体",
+      "gameId": null,
+      "gameName": null,
+      "relevanceScore": 35,
+      "isRelevant": true,
+      "matchedAliases": [],
+      "matchedTerms": [],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": null,
+      "analysisStatus": "unclassified",
+      "seenCount": 1
+    },
+    {
       "id": "live-0c14675b0a161d8d0b1c8b51",
       "title": "中国玩家说BOSS太难，老外在却吐槽游戏简单？",
       "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ae57e59732246cb9d1abbbca7871952&url=https%3A%2F%2Fwww.msn.com%2Fzh-cn%2Fgaming%2F%25E7%2594%25B5%25E8%2584%2591%25E6%25B8%25B8%25E6%2588%258F%2F%25E4%25B8%25AD%25E5%259B%25BD%25E7%258E%25A9%25E5%25AE%25B6%25E8%25AF%25B4boss%25E5%25A4%25AA%25E9%259A%25BE-%25E8%2580%2581%25E5%25A4%2596%25E5%259C%25A8%25E5%258D%25B4%25E5%2590%2590%25E6%25A7%25BD%25E6%25B8%25B8%25E6%2588%258F%25E7%25AE%2580%25E5%258D%2595%2Far-AA2gpuwc&c=3556274039744020581&mkt=en-us",
@@ -2249,41 +2384,6 @@
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
       "seenCount": 1
-    },
-    {
-      "id": "live-9ccb88445fbf3e73e3925459",
-      "title": "【闲庭絮语】疏桐露冷，寒菊秋黄- 梦回甄嬛传 - TapTap",
-      "url": "https://www.taptap.cn/moment/857352717327141103",
-      "source": "taptap.cn",
-      "provider": "SearXNG",
-      "providerType": "metasearch",
-      "engine": "google cse",
-      "query": "\"梦回甄嬛传\" 游戏 评价 site:taptap.cn",
-      "description": "... 小主得闲便来叙叙～. 天凉时节，愿小主衣暖食安。 梦回甄嬛传icon · 梦回甄嬛传. 7.3. 休闲 · 前往论坛 · 梦回甄嬛传封面 · 梦回甄嬛传. 7.3. 休闲 · 去论坛查看游戏.",
-      "publishedAt": null,
-      "firstSeenAt": "2026-10-13T22:42:43.714437Z",
-      "lastSeenAt": "2026-10-29T22:43:15.752619Z",
-      "collectedAt": "2026-10-29T22:43:15.752619Z",
-      "mode": "搜索发现",
-      "accessLevel": "搜索发现",
-      "platform": "taptap",
-      "platformLabel": "TapTap",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 68,
-      "isRelevant": true,
-      "matchedAliases": [
-        "梦回甄嬛传"
-      ],
-      "matchedTerms": [
-        "游戏",
-        "小胖橘"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": 0.1111111111111111,
-      "analysisStatus": "unclassified",
-      "seenCount": 117
     },
     {
       "id": "live-1f13063bd542e99b739930a6",
@@ -2452,6 +2552,36 @@
       "excludedTerms": [],
       "isExcluded": false,
       "rawProviderScore": 0.1,
+      "analysisStatus": "unclassified",
+      "seenCount": 1
+    },
+    {
+      "id": "live-def5553b7bf637f4ed361f6f",
+      "title": "《Children of Silentown》Steam好评破千！🎃 - 17173",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yd0tvVEZhaHEzZjhfUFB5X1c3a0V5bVBxZkRGWlU4SkdOWjRMZ3U3dGNmX09wSlNpNGZ5VUR3NEQtcy1oR2R2U1B6Y0E1dG05U1U0Wk5RWWRzVnR5b0FaQkRtc1U?oc=5",
+      "source": "17173",
+      "provider": "Google News RSS",
+      "providerType": "news_rss",
+      "engine": null,
+      "query": "小游戏 玩家 评价",
+      "description": "《Children of Silentown》Steam好评破千！🎃 17173",
+      "publishedAt": "2026-10-29T21:50:52Z",
+      "firstSeenAt": "2026-11-01T21:59:32.490122Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "新闻 RSS",
+      "accessLevel": "新闻 RSS",
+      "platform": "news",
+      "platformLabel": "新闻/行业媒体",
+      "gameId": null,
+      "gameName": null,
+      "relevanceScore": 35,
+      "isRelevant": true,
+      "matchedAliases": [],
+      "matchedTerms": [],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": null,
       "analysisStatus": "unclassified",
       "seenCount": 1
     },
@@ -3529,8 +3659,8 @@
       "description": "我是在微信小程序上玩的，他其实想要做花钱的动，没必要做到番外卡身上，你这样你后续不花钱的人完全就玩不了",
       "publishedAt": "2026-10-27T03:12:33Z",
       "firstSeenAt": "2026-10-27T04:59:59.887240Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -3547,7 +3677,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 18
+      "seenCount": 19
     },
     {
       "id": "live-38c8c53b52c1a26d1afec0da",
@@ -3595,8 +3725,8 @@
       "description": "有这时间不如去洋柿子看小说都比这«重生之我在甄嬛身边当丫鬟»要好十万八千倍，就是披着甄嬛传ip的合成游戏。合成过程中你不会有任何对现实提升的大收获，不会锻炼你的思维能力，也不会锻炼你的敏捷能力，纯消费时间",
       "publishedAt": "2026-10-26T14:12:23Z",
       "firstSeenAt": "2026-10-26T22:38:16.500347Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -3613,7 +3743,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 19
+      "seenCount": 20
     },
     {
       "id": "live-40ee1d54977db213a76053c9",
@@ -3657,8 +3787,8 @@
       "description": "怎么个事哦，和梦幻消除站一样恶心，一样吃相难看呢，不知道的还以为你俩一家的呢，从最开始的3元充值，到8元，再到18元，然后合成要的东西也从两个变成三个，不充钱的话三四天都不一定能完成一个订单，冰冻棋子和福灯经常会在没体力的时候才出现，体力也是少的可怜",
       "publishedAt": "2026-10-26T03:55:37Z",
       "firstSeenAt": "2026-10-26T04:42:57.675563Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -3675,7 +3805,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 21
+      "seenCount": 22
     },
     {
       "id": "live-b0c719a1498b567ce693e6ce",
@@ -3861,8 +3991,8 @@
       "description": "这个游戏是在小程序上玩的，少说也充了好几百了，他没有氪度条，让我感觉好难受，真的能不能上一个氪度条啊？",
       "publishedAt": "2026-10-25T04:03:54Z",
       "firstSeenAt": "2026-10-25T04:37:36.857797Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -3879,7 +4009,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 49
+      "seenCount": 51
     },
     {
       "id": "live-5d12f734350ce05d3cd8b790",
@@ -3893,8 +4023,8 @@
       "description": "真的很一般，前期还有送钻石啥的活动，礼包也不算贵，后期钻石全靠氪金，氪金的礼包也越来越贵，合成的物品难度越来越高，体力跟不上，就是纯逼你氪金买体力，逼氪游戏狗都不玩",
       "publishedAt": "2026-10-25T01:44:43Z",
       "firstSeenAt": "2026-10-25T04:37:36.857797Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -3911,7 +4041,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 25
+      "seenCount": 26
     },
     {
       "id": "live-c241310c644385217576d209",
@@ -3925,8 +4055,8 @@
       "description": "只能说他们根本就没有用心做游戏❗就是单纯圈💰，抠得要s‼️ 1⃣️氪金的不应该上个氪条等级吗？我很久之前就反馈过氪条啥时候上，我玩了一个月，充了大几千了，然后就只是邮箱发了个邮件，让加客服，客服就给了个链接，就给800钻石，和那么点体力打发了[表情_疑惑]我玩的游戏里，这个是第一个没有氪条和月卡的[表情_翻白眼] 2⃣️月卡也没有，我建议30元一个月月卡，有效期30天，体力上限增加到200，一天给100钻石 3⃣️兑换码更是没有❗这种小游戏不应该有兑换码吗？人家的小游戏都是每个星期一个兑换码，开始玩的时候，新手也会给很多兑换码，但是这个游戏一个都没有[表情_嫌弃] 4⃣️每次活动给的东西都少少的，来来回回就那么几个活动重复来，主线更新的也慢得要死，而且主线剧情越来越离谱[表情_嫌弃]我刚开始玩这个游戏，以为是主角穿越可以帮助甄嬛他们一起避过所有的坑，救下一些遗憾，结果竟然还有两个所谓的“神秘人”，有另一个穿越者，最可笑的是宫女太监听他的就算了，丽嫔这种上位者也会这么乖乖听他的，把剧情改得乱七八槽，推进更是慢得要s，更新到现在了才到丽嫔给甄嬛下毒[表情_嫌弃] 5⃣️角色好感度也不更新，我都攒了1000多个赞了[表情_喷] 6⃣️最可笑也最气愤的一点‼️更新那么慢，不说提高更新速度，倒是把剧情推进需要的金币提得越来越高、合成任务越来越难，100体力有时候连差事里的一个东西都合成不了[表情_疑惑]任务越来越难，不应该相应的把体力上限和每个差事获取的金币也提高吗？？[表情_生气][表情_生气][表情_生气] 7⃣️要的金币越来越多，当时每次剧情内容特别特别短，有的甚至就几句话，都没推进啥，不知道何意味，为了拖进度而拖进度[表情_翻白眼]",
       "publishedAt": "2026-10-25T01:30:35Z",
       "firstSeenAt": "2026-10-25T04:37:36.857797Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -3943,7 +4073,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 28
+      "seenCount": 29
     },
     {
       "id": "live-3503dffd4fe1af81b5933e40",
@@ -5399,6 +5529,36 @@
       "seenCount": 1
     },
     {
+      "id": "live-6b2f68296a02c4e1d35d78ab",
+      "title": "《阴影之墓》正式登陆Nintendo Switch 2，玩家可享多重内容体验 ｜#游戏 ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ae7b64646bc4a6496fd72bfe2a9e379&url=https%3A%2F%2Fwww.sohu.com%2Fa%2F1091390508_122598898&c=14906285441219809077&mkt=en-us",
+      "source": "bing.com",
+      "provider": "Bing News RSS",
+      "providerType": "news_rss",
+      "engine": null,
+      "query": "小游戏 玩家 评价",
+      "description": "2021年9月14日，备受期待的动作冒险游戏《阴影之墓》（Shadow of the Tomb Raider）正式在Nintendo Switch 2平台发布。这款游戏由Eidos Montreal开发，Square Enix发行，标志着该系列在新平台上的首次亮相。 丰富的游戏内容 在Switch 2上，玩家将能够体验到所有三部《塔罗夺宝传奇》（Tomb Raider）系列的内容，包括七个小挑战墓 ...",
+      "publishedAt": "2026-10-22T19:07:00Z",
+      "firstSeenAt": "2026-11-01T21:59:32.490122Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "新闻 RSS",
+      "accessLevel": "新闻 RSS",
+      "platform": "news",
+      "platformLabel": "新闻/行业媒体",
+      "gameId": null,
+      "gameName": null,
+      "relevanceScore": 35,
+      "isRelevant": true,
+      "matchedAliases": [],
+      "matchedTerms": [],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": null,
+      "analysisStatus": "unclassified",
+      "seenCount": 1
+    },
+    {
       "id": "live-9d8263d1ff8c849c1c620eab",
       "title": "略略略的个人主页- TapTap",
       "url": "https://www.taptap.cn/user/472113297",
@@ -5889,8 +6049,8 @@
       "description": "#温水煮青蛙 温水煮了青蛙梦，现实压断牛马腰。 - 渐行渐远于20261022发布在抖音，已经收获了10.1K个喜欢，来抖音，记录美好生活！",
       "publishedAt": "2026-10-22T09:53:04Z",
       "firstSeenAt": "2026-10-24T20:45:47.732058Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "搜索发现",
       "accessLevel": "搜索发现",
       "platform": "douyin",
@@ -5905,7 +6065,7 @@
       "isExcluded": false,
       "rawProviderScore": 0.2,
       "analysisStatus": "unclassified",
-      "seenCount": 5
+      "seenCount": 6
     },
     {
       "id": "live-8e4482b25adbe11273727e24",
@@ -5919,8 +6079,8 @@
       "description": "啊哈，在很多地方都看了这游戏广告的，最终选择在tap下载玩。 💡游戏创意： 剧情感觉好有趣啊，我是宫女，三线间谍宫女。而不是这些年看烂了的主角视角 🎮可玩性： 也玩过一些二合游戏，这个也还行，中规中矩。 美术和剧情很还原，一开始就是很多名场面，画的很像",
       "publishedAt": "2026-10-22T07:34:44Z",
       "firstSeenAt": "2026-10-22T11:48:01.797198Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -5937,7 +6097,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 72
+      "seenCount": 74
     },
     {
       "id": "live-6c8c6552fc67cf148c304d0e",
@@ -6347,6 +6507,36 @@
       "firstSeenAt": "2026-10-31T05:36:23.156582Z",
       "lastSeenAt": "2026-10-31T05:36:23.156582Z",
       "collectedAt": "2026-10-31T05:36:23.156582Z",
+      "mode": "新闻 RSS",
+      "accessLevel": "新闻 RSS",
+      "platform": "news",
+      "platformLabel": "新闻/行业媒体",
+      "gameId": null,
+      "gameName": null,
+      "relevanceScore": 35,
+      "isRelevant": true,
+      "matchedAliases": [],
+      "matchedTerms": [],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": null,
+      "analysisStatus": "unclassified",
+      "seenCount": 1
+    },
+    {
+      "id": "live-8d5d4d4548fc6ed78f1aa38b",
+      "title": "游戏用户&内容研究：数据要去玩家真正讨论的地方拿",
+      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ae7b64646bc4a6496fd72bfe2a9e379&url=https%3A%2F%2Fnews.qq.com%2Frain%2Fa%2F20261022A053OX00&c=12425540661459007077&mkt=en-us",
+      "source": "bing.com",
+      "provider": "Bing News RSS",
+      "providerType": "news_rss",
+      "engine": null,
+      "query": "小游戏 玩家 评价",
+      "description": "为什么游戏行业的用户研究必须看垂直社区游戏行业的用户讨论，分布在性质完全不同的三层渠道里，每一层能回答的问题都不一样。第一层是玩家社区。 NGA、小黑盒、库街区这类社区聚集的是深度玩家，他们会写长帖拆数值、比对版本改动、争论机制设计。这里的讨论量不算最大，但信息密度最高，也最接近\"玩家为什么这么想\"。第二层是分发与评测平台。 Steam、TapTap、好游快爆这类平台上的评价，出现在玩家真正接触产 ...",
+      "publishedAt": "2026-10-22T04:15:00Z",
+      "firstSeenAt": "2026-11-01T21:59:32.490122Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -6895,8 +7085,8 @@
       "description": "开启读屏标签 · 读屏标签已关闭 · Topick · For You · Following · Friends · Profile · 小游戏 · 2026 © 抖音 · 京ICP备16016397号-3",
       "publishedAt": "2026-10-20T15:32:39Z",
       "firstSeenAt": "2026-10-22T17:08:15.859826Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "搜索发现",
       "accessLevel": "搜索发现",
       "platform": "douyin",
@@ -6914,7 +7104,7 @@
       "isExcluded": false,
       "rawProviderScore": 0.5,
       "analysisStatus": "unclassified",
-      "seenCount": 70
+      "seenCount": 72
     },
     {
       "id": "live-90af95af902d146b5c512870",
@@ -7983,8 +8173,8 @@
       "description": "#鸣潮 #鸣潮心 #鸣潮梦枢天罗摄影征集 - 甜茶于20261021发布在抖音，已经收获了1573.4K个喜欢，来抖音，记录美好生活！",
       "publishedAt": "2026-10-20T00:00:00Z",
       "firstSeenAt": "2026-10-31T21:30:18.373883Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "搜索发现",
       "accessLevel": "搜索发现",
       "platform": "douyin",
@@ -7997,9 +8187,9 @@
       "matchedTerms": [],
       "excludedTerms": [],
       "isExcluded": false,
-      "rawProviderScore": 0.25,
+      "rawProviderScore": 0.3333333333333333,
       "analysisStatus": "unclassified",
-      "seenCount": 4
+      "seenCount": 5
     },
     {
       "id": "live-488bc9976b391bec73ce4c8a",
@@ -8181,8 +8371,8 @@
       "description": "你们不想发兑换码可以不发，下午三点发兑换码，然后当天过完就失效，得天天盯你们论坛是吧",
       "publishedAt": "2026-10-19T08:25:08Z",
       "firstSeenAt": "2026-10-19T13:08:39.054781Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -8199,7 +8389,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 47
+      "seenCount": 48
     },
     {
       "id": "live-27496155f43ca7903263ecc1",
@@ -8540,8 +8730,8 @@
       "description": "验证码给不起可以不给，明天下午3点钟才发，晚上12点前过期，根本来不及换，只有几个小时的时间[表情_生气][表情_生气][表情_生气][表情_生气]",
       "publishedAt": "2026-10-18T18:58:12Z",
       "firstSeenAt": "2026-10-18T20:39:32.522472Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -8558,7 +8748,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 49
+      "seenCount": 50
     },
     {
       "id": "live-e887ccf807ef27b2dc8d66d5",
@@ -9340,8 +9530,8 @@
       "description": "剧情可以，画风也很萌，但是都后期需要的体力太多，有时候差事两天才能完成，感觉体力设置的很不合理。后期需要乘四才能更快的获得道具而不枯燥，这个设计的很好，但它并不会增加体力，所以满体力，大概点二十五下体力就耗尽了，但是差事需要的体力也大概翻了四五倍，玩上头了想充个钱发现充了钱还差很多就很离谱",
       "publishedAt": "2026-10-18T00:12:23Z",
       "firstSeenAt": "2026-10-18T04:28:42.059113Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -9358,7 +9548,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 101
+      "seenCount": 102
     },
     {
       "id": "live-b1c4f2899b61b4f28fc810da",
@@ -10209,12 +10399,12 @@
       "provider": "SearXNG",
       "providerType": "metasearch",
       "engine": "brave",
-      "query": "\"梦回甄嬛传\" 小游戏 site:douyin.com",
+      "query": "\"梦回甄嬛传\" 游戏 评价 site:douyin.com",
       "description": "开启读屏标签 · 读屏标签已关闭 · Topick · For You · Following · Friends · Profile · 小游戏 · 2026 © 抖音 · 京ICP备16016397号-3",
       "publishedAt": "2026-10-16T09:10:01Z",
       "firstSeenAt": "2026-10-19T13:08:39.054781Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "搜索发现",
       "accessLevel": "搜索发现",
       "platform": "douyin",
@@ -10230,9 +10420,9 @@
       ],
       "excludedTerms": [],
       "isExcluded": false,
-      "rawProviderScore": 0.5,
+      "rawProviderScore": 0.16666666666666666,
       "analysisStatus": "unclassified",
-      "seenCount": 59
+      "seenCount": 61
     },
     {
       "id": "live-d59cce8e796cc694dad8b6fe",
@@ -16579,8 +16769,8 @@
       "description": "「甄嬛传」冲上小游戏畅销榜，这家华南大厂的女性向终于成了？ QQ News",
       "publishedAt": "2026-10-14T07:00:00Z",
       "firstSeenAt": "2026-10-30T05:43:32.732083Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -16598,7 +16788,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 15
+      "seenCount": 17
     },
     {
       "id": "live-eb02e33fc08b7b9b60b31d97",
@@ -17062,8 +17252,8 @@
       "description": "瑶王五桶汤福利来啦！原价138的沉浸式头疗套餐现仅79，含头皮检测清洁、植物浓汤熏蒸，三重养护养发解压，油头、干枯发、打工人别错过！#头疗一个月做几次比较好 #硅油堆积头疗能否改善 #按背完可以游泳吗 #头疗 #放松解压好去处 - 瑶王五桶汤(爱琴海店)于20261013发布在抖音，已经收获了0个喜欢，来抖音，记录美好生活！",
       "publishedAt": "2026-10-13T21:56:12Z",
       "firstSeenAt": "2026-10-31T21:30:18.373883Z",
-      "lastSeenAt": "2026-10-31T21:30:18.373883Z",
-      "collectedAt": "2026-10-31T21:30:18.373883Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "搜索发现",
       "accessLevel": "搜索发现",
       "platform": "douyin",
@@ -17076,9 +17266,9 @@
       "matchedTerms": [],
       "excludedTerms": [],
       "isExcluded": false,
-      "rawProviderScore": 0.1,
+      "rawProviderScore": 0.25,
       "analysisStatus": "unclassified",
-      "seenCount": 1
+      "seenCount": 2
     },
     {
       "id": "live-d2a726a8e83003fe07df131a",
@@ -17691,8 +17881,8 @@
       "description": "《退婚当日逐出家门？这金陵，从此我说了算！》合集 穿越成国公府最不受待见的庶三子，陈凡开局就摊上女帝赐婚。 为了不进宫当男妃、困死后宫，他硬生生装了五年纨绔，吃喝嫖赌样样沾，把 “不学无术、德不配位” 的名声传遍京城，终于熬到了退婚圣旨。#续火花 #轻漫计划 #原创漫画 #跨次元剧场 #逆水寒动漫剧情",
       "publishedAt": "2026-10-12T21:56:12Z",
       "firstSeenAt": "2026-10-24T20:45:47.732058Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "搜索发现",
       "accessLevel": "搜索发现",
       "platform": "douyin",
@@ -17705,9 +17895,9 @@
       "matchedTerms": [],
       "excludedTerms": [],
       "isExcluded": false,
-      "rawProviderScore": 0.3333333333333333,
+      "rawProviderScore": 1.0,
       "analysisStatus": "unclassified",
-      "seenCount": 16
+      "seenCount": 18
     },
     {
       "id": "live-ebfdf362e5fc36c5d761c19a",
@@ -17751,8 +17941,8 @@
       "description": "服务器出现问题 · 去精选页查看更多视频",
       "publishedAt": "2026-10-12T20:33:51Z",
       "firstSeenAt": "2026-10-19T13:08:39.054781Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "搜索发现",
       "accessLevel": "搜索发现",
       "platform": "douyin",
@@ -17767,7 +17957,7 @@
       "isExcluded": false,
       "rawProviderScore": 0.2,
       "analysisStatus": "unclassified",
-      "seenCount": 7
+      "seenCount": 8
     },
     {
       "id": "live-d82c25f674e5d72b9ace243d",
@@ -18310,6 +18500,36 @@
       "seenCount": 1
     },
     {
+      "id": "live-f41c69a0e95890575f00af6b",
+      "title": "大学生单人开发，把装备强化单独做成游戏，居然成了一款Steam锻剑 ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ae7b64646bc4a6496fd72bfe2a9e379&url=https%3A%2F%2Fnews.qq.com%2Frain%2Fa%2F20261012A0CEP300&c=4217496785793602558&mkt=en-us",
+      "source": "bing.com",
+      "provider": "Bing News RSS",
+      "providerType": "news_rss",
+      "engine": null,
+      "query": "小游戏 玩家 评价",
+      "description": "游戏突然火了，开发者却得先回去准备期中考试——这是《ForgeTax》最近发生的一幕。10月11日，开发者在公告中透露，自己是在韩国就读的大学生，独自制作这款游戏，最初只是想做个小原型，试着放到Steam上发行。上线后，修Bug和补内容占据了他的时间，但眼下，考试也快到了。相比这段颇有戏剧性的经历，游戏本身的反差更大。",
+      "publishedAt": "2026-10-12T16:23:00Z",
+      "firstSeenAt": "2026-11-01T21:59:32.490122Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "新闻 RSS",
+      "accessLevel": "新闻 RSS",
+      "platform": "news",
+      "platformLabel": "新闻/行业媒体",
+      "gameId": null,
+      "gameName": null,
+      "relevanceScore": 35,
+      "isRelevant": true,
+      "matchedAliases": [],
+      "matchedTerms": [],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": null,
+      "analysisStatus": "unclassified",
+      "seenCount": 1
+    },
+    {
       "id": "live-5b8ad056b317aa03a1e72550",
       "title": "Travel town - 小红书",
       "url": "https://www.xiaohongshu.com/explore/6a47bfe2000000001702fa50",
@@ -18411,8 +18631,8 @@
       "description": "2026年的精彩逆袭,看这部热血漫剧如何颠覆剧情,引爆好 - 短剧叙归期于20261011发布在抖音，已经收获了8713个喜欢，来抖音，记录美好生活！",
       "publishedAt": "2026-10-12T07:25:22Z",
       "firstSeenAt": "2026-10-30T12:50:31.879940Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "搜索发现",
       "accessLevel": "搜索发现",
       "platform": "douyin",
@@ -18427,7 +18647,7 @@
       "isExcluded": false,
       "rawProviderScore": 0.3333333333333333,
       "analysisStatus": "unclassified",
-      "seenCount": 7
+      "seenCount": 8
     },
     {
       "id": "live-aeb0d00c376926ca1f61a10d",
@@ -19889,8 +20109,8 @@
       "description": "Mafia 3 十周年更新发布，重返新波尔多正当时 games.gg",
       "publishedAt": "2026-10-10T07:00:00Z",
       "firstSeenAt": "2026-10-11T12:46:03.479233Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -19905,7 +20125,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 8
+      "seenCount": 9
     },
     {
       "id": "live-3fb592ee8ad6da4f8a3a0128",
@@ -19949,8 +20169,8 @@
       "description": "2026游戏语音平台口碑排行 真实用户评价汇总 新浪网",
       "publishedAt": "2026-10-10T07:00:00Z",
       "firstSeenAt": "2026-10-31T05:36:23.156582Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -19965,7 +20185,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 5
+      "seenCount": 6
     },
     {
       "id": "live-3b2fb204f70c033678f8b673",
@@ -20787,8 +21007,8 @@
       "description": "这Q版画风简直长在我心巴上！萌得我想直接上手rua，晓初可爱到犯规，每个小主都特有个人特色，一眼就能认出来，完全不会脸盲。场景颜色看着也舒服，人物表情活灵活现的，连个小眼神都有戏，跟剧里角色一模一样，华妃翻白眼那劲儿都做出来了，可爱到爆！就盼着以后能多出点Q版皮肤、表情包",
       "publishedAt": "2026-10-08T15:04:06Z",
       "firstSeenAt": "2026-10-08T23:19:23.402471Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -20805,7 +21025,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 141
+      "seenCount": 142
     },
     {
       "id": "live-9fc1d8e589dc74b2ebabb16e",
@@ -22482,8 +22702,8 @@
       "description": "《甄嬛传》手游：女生向宫廷模拟经营新游，值得预约吗 17173",
       "publishedAt": "2026-10-08T07:00:00Z",
       "firstSeenAt": "2026-10-08T23:19:23.402471Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -22498,7 +22718,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 105
+      "seenCount": 106
     },
     {
       "id": "live-e6b21ff6eeb97c7f6db3a13c",
@@ -22512,8 +22732,8 @@
       "description": "古风手游推荐：这部水墨清宫风的《甄嬛传》手游，值得放进预约名单 17173",
       "publishedAt": "2026-10-08T07:00:00Z",
       "firstSeenAt": "2026-10-08T13:25:41.674768Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -22528,7 +22748,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 84
+      "seenCount": 85
     },
     {
       "id": "live-e1d10baf84d93cfea39620bd",
@@ -28047,8 +28267,8 @@
       "description": "《艾奇菲尔德高中：摇滚校园》登陆PS5！商店玩家评价两极分化 3dmgame.com",
       "publishedAt": "2026-09-28T07:00:00Z",
       "firstSeenAt": "2026-09-28T05:20:46.069118Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -28063,7 +28283,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 103
+      "seenCount": 104
     },
     {
       "id": "live-287ecc845d3e53701082f14d",
@@ -28476,8 +28696,8 @@
       "description": "玩过小程序版的，前期挺好玩，礼包也不算很贵。但随着等级增加，体力消耗越来越大，一天那种合成要求高的任务都交不了一两个。更没想到的是大部分礼包价格翻了3-4倍，本来6块还是8块可以买100体力之类的礼包已经没有了，同样的礼包翻了几倍。而且花几十块钱买一个礼包只能用不到5分钟就用完了，任务一个没做完。各种交任务活动因为等级高了，合成要求高了很难拿不到排名奖励。😮‍💨 老玩家体验太差了，推荐就玩一周，2周之后纯折磨。",
       "publishedAt": "2026-09-27T02:54:44Z",
       "firstSeenAt": "2026-09-27T05:16:06.386845Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -28494,7 +28714,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 143
+      "seenCount": 144
     },
     {
       "id": "live-e8e9ad361ef60264463983bf",
@@ -30292,12 +30512,12 @@
       "provider": "Google News RSS",
       "providerType": "news_rss",
       "engine": null,
-      "query": "梦回甄嬛传 游戏",
+      "query": "梦回甄嬛传 小游戏",
       "description": "三字《甄嬛传》手游如何做出差异化：甄过瘾的宫廷模拟经营 17173",
       "publishedAt": "2026-09-24T07:00:00Z",
       "firstSeenAt": "2026-10-06T00:01:42.853690Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -30312,7 +30532,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 94
+      "seenCount": 96
     },
     {
       "id": "live-bee834e798c9b75699c7344d",
@@ -30356,8 +30576,8 @@
       "description": "三字《甄嬛传》手游：宫廷经营玩法能打破宫斗游戏的老套路吗？ 17173",
       "publishedAt": "2026-09-24T07:00:00Z",
       "firstSeenAt": "2026-10-07T05:56:17.964141Z",
-      "lastSeenAt": "2026-10-29T05:44:13.734263Z",
-      "collectedAt": "2026-10-29T05:44:13.734263Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -30374,7 +30594,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 79
+      "seenCount": 80
     },
     {
       "id": "live-f31d19b0859e8efe452a44a1",
@@ -37641,8 +37861,8 @@
       "description": "峰值超12万但特别差评！《伊莫》上线首日口碑翻车 17173",
       "publishedAt": "2026-09-17T07:00:00Z",
       "firstSeenAt": "2026-10-15T04:34:52.020110Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -37657,7 +37877,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 19
+      "seenCount": 20
     },
     {
       "id": "live-38503c92ea21e963c4a35440",
@@ -37701,8 +37921,8 @@
       "description": "Aniimo登陆Steam获褒贬不一评价，抽卡机制引发争议 games.gg",
       "publishedAt": "2026-09-17T07:00:00Z",
       "firstSeenAt": "2026-10-29T12:57:06.794743Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -37717,7 +37937,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 6
+      "seenCount": 7
     },
     {
       "id": "live-09900575ca606a85495a435f",
@@ -38799,8 +39019,8 @@
       "description": "《漫威金刚狼》确认收到负面评价！承诺积极整改 news.17173.com",
       "publishedAt": "2026-09-16T07:00:00Z",
       "firstSeenAt": "2026-09-16T04:47:18.337294Z",
-      "lastSeenAt": "2026-10-29T12:57:06.794743Z",
-      "collectedAt": "2026-10-29T12:57:06.794743Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -38815,7 +39035,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 135
+      "seenCount": 136
     },
     {
       "id": "live-40a2367c3cf8522260f20bb2",
@@ -38829,8 +39049,8 @@
       "description": "认准三字\"甄嬛传\"！宫廷模拟经营爱好者不能错过 news.17173.com",
       "publishedAt": "2026-09-16T07:00:00Z",
       "firstSeenAt": "2026-09-16T21:16:32.302890Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -38845,7 +39065,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 219
+      "seenCount": 221
     },
     {
       "id": "live-1592c335db376a8b1b102905",
@@ -58574,8 +58794,8 @@
       "description": "AI 时代的「4399」，可把我玩嗨了｜AI 上新 极客公园",
       "publishedAt": "2026-09-12T07:00:00Z",
       "firstSeenAt": "2026-10-31T21:30:18.373883Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -58590,7 +58810,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 3
+      "seenCount": 4
     },
     {
       "id": "live-797869c74b780310ed853f74",
@@ -66474,8 +66694,8 @@
       "description": "三款《甄嬛传》新游戏乱战！时隔12年，国民级宫斗IP杀回游戏圈？ QQ News",
       "publishedAt": "2026-09-08T07:00:00Z",
       "firstSeenAt": "2026-10-15T16:58:24.403630Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -66492,7 +66712,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 76
+      "seenCount": 78
     },
     {
       "id": "live-73ef05305bc234b4f89abc25",
@@ -74354,6 +74574,36 @@
       "seenCount": 1
     },
     {
+      "id": "live-5866cbf4236064c55116e645",
+      "title": "借鉴Steam爆款玩法做小游戏，新进畅销榜小游戏《俱乐大玩家》产品分析",
+      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ae7b64646bc4a6496fd72bfe2a9e379&url=https%3A%2F%2Fview.inews.qq.com%2Fa%2F20260901A0D2BZ00&c=705400066224825010&mkt=en-us",
+      "source": "bing.com",
+      "provider": "Bing News RSS",
+      "providerType": "news_rss",
+      "engine": null,
+      "query": "小游戏 玩家 评价",
+      "description": "数月前，Steam游戏《竞拍之王》一度成功出圈。一方面，这款竞拍游戏本身亮点颇多；另一方面，它以不到200万的制作成本、18元定价斩获数十万份销量，有较高投入产出比。近期，大梦龙途旗下小游戏《俱乐大玩家》就借鉴了《竞拍之王》的核心玩法登陆小游戏 ...",
+      "publishedAt": "2026-09-01T16:23:00Z",
+      "firstSeenAt": "2026-11-01T21:59:32.490122Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "新闻 RSS",
+      "accessLevel": "新闻 RSS",
+      "platform": "news",
+      "platformLabel": "新闻/行业媒体",
+      "gameId": null,
+      "gameName": null,
+      "relevanceScore": 35,
+      "isRelevant": true,
+      "matchedAliases": [],
+      "matchedTerms": [],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": null,
+      "analysisStatus": "unclassified",
+      "seenCount": 1
+    },
+    {
       "id": "live-7376d4f1ae9626ca1fd178cf",
       "title": "！ - 1星",
       "url": "https://www.taptap.cn/review/50291438",
@@ -81764,8 +82014,8 @@
       "description": "综合来说，这个游戏是我见过最有诚意的IP改编之一。剧情还原度很高，名场面目前我玩下来也是高度还原，美术画风比较偏治愈美萌，玩法轻松，最重要的是真的懂我们剧粉的心，知道我们想要什么。虽然现在的版本还有一些可以打磨的地方，但整体已经超出预期了，至少真的在剧情上做的蛮好的。冲着这份用心，五星先奉上，祝游戏大火，也希望官方多听玩家的建议，把产品做得越来越好，让更多剧粉圆梦！",
       "publishedAt": "2026-08-28T01:49:21Z",
       "firstSeenAt": "2026-09-03T07:17:41.861696Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -81782,7 +82032,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 211
+      "seenCount": 212
     },
     {
       "id": "live-e20b8c9205ca72ed4fa5c5a1",
@@ -81918,8 +82168,8 @@
       "description": "一袭红衣的华妃真的太美了！感觉美术品质很好啊！侧脸祈祷的嬛嬛也不错，甄嬛传看了好几遍了，很喜欢剧情，希望能有更多得剧情还原和名场面重现吧！看评论应该是合成游戏，还好不是宫斗游戏，不想玩的这么累，轻松一点就好。期待游戏快点上线！",
       "publishedAt": "2026-08-27T02:10:26Z",
       "firstSeenAt": "2026-09-03T07:17:41.861696Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -81936,7 +82186,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 211
+      "seenCount": 212
     },
     {
       "id": "live-5eb321ee69f2094c4e3e2000",
@@ -82012,8 +82262,8 @@
       "description": "三七互娱上半年归母净利润同比增长26%，迈入产品周期新阶段- 资讯 news.yxrb.net",
       "publishedAt": "2026-08-26T07:00:00Z",
       "firstSeenAt": "2026-09-06T10:54:12.172461Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -82031,7 +82281,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 126
+      "seenCount": 127
     },
     {
       "id": "live-033703b5948e36030dc3662b",
@@ -82078,8 +82328,8 @@
       "description": "米哈游新作亮相科隆游戏展丨游值洞察 21jingji.com",
       "publishedAt": "2026-08-26T07:00:00Z",
       "firstSeenAt": "2026-09-03T02:56:10.376242Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -82096,7 +82346,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 275
+      "seenCount": 276
     },
     {
       "id": "live-333e9300fecd6777d1439841",
@@ -82206,8 +82456,8 @@
       "description": "智谱上市推高投资收益，三七互娱2026年上半年净利润超17.6亿元，游戏主业仍待突围 finance.sina.com.cn",
       "publishedAt": "2026-08-26T07:00:00Z",
       "firstSeenAt": "2026-10-04T21:21:41.612818Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -82225,7 +82475,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 87
+      "seenCount": 88
     },
     {
       "id": "live-864b040971af9553ac65d546",
@@ -82239,8 +82489,8 @@
       "description": "之前刷短视频刷到就点进去玩儿了，而且他们视频质量说实话挺高的，感觉不像是随便ai出来的，感觉更像是手搓。刚好看tap这里好像还是预约状态，应该他们就只先上小程序，于是拉着朋友一起预约了！我们俩从大学开始就一起刷甄嬛传，台词都能背下来了，现在终于有个游戏能一起玩了，想想就激动。而且可以一边玩一边讨论剧情，聊聊当年一起磕的CP，感叹一下谁又意难平了，感觉追剧的日子又回来了啊是谁懂。这种能和姐妹分享的快乐，比游戏本身让人期待。游戏里还可以加好友，培养亲密度，甄学家们康康我！期待一波tap上线吧！还有就是tap论坛的互动能不能多点！！！",
       "publishedAt": "2026-08-26T02:45:29Z",
       "firstSeenAt": "2026-09-03T07:17:41.861696Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -82257,7 +82507,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 211
+      "seenCount": 212
     },
     {
       "id": "live-53358e6c12d0f74ab5275c86",
@@ -82285,8 +82535,8 @@
       "description": "这个Q版画风，真的长在我的审美上！萌得让人想rua，晓初真的超级萌啊，而且小主们一个个都有辨识度，特别有每个人的神韵！不会像有些游戏那样千人一面。场景的色调也挺舒服，人物表情也做得生动，一个小眼神都是戏，完全就是剧里那些角色的Q版复刻，华妃的翻白眼都还原了（特别可爱！！！）。期待后续会有更多Q版的皮肤或者表情包之类的，以及官方考不考虑出周边[表情_吃瓜][表情_吃瓜][表情_吃瓜]（勾引jpg.）",
       "publishedAt": "2026-08-25T09:28:24Z",
       "firstSeenAt": "2026-09-03T07:17:41.861696Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -82303,7 +82553,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 213
+      "seenCount": 214
     },
     {
       "id": "live-b6875cf6c72eb472062d9973",
@@ -82475,8 +82725,8 @@
       "description": "在小程序刷到过，玩了玩感觉还不错，正好又看到tap这边开预约了，就来留言一下。整体玩法还比较休闲吧，摸鱼时间玩很合适，偶尔上去清一下体力就好。然后剧情方面的话，我觉得改写的还不错，我作为一个进入剧中的旁观者，看着剧情的发展，并且改写，我感觉这个设计还是不错的，而且整体画风我很喜欢，不是粗制烂造的ai感，我感觉角色设计的还是都比较有灵魂的。期待一下tap上线吧...【就不给满分了，怕游戏官方骄傲[表情_酷]】",
       "publishedAt": "2026-08-25T02:48:52Z",
       "firstSeenAt": "2026-09-03T07:17:41.861696Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "评论 Feed",
       "accessLevel": "评论 Feed",
       "platform": "taptap",
@@ -82493,7 +82743,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 251
+      "seenCount": 252
     },
     {
       "id": "live-9481a9d273df5d16216348d1",
@@ -83183,8 +83433,8 @@
       "description": "大厂新挑战：员工危机公关成为必修课 虎嗅网",
       "publishedAt": "2026-08-18T07:00:00Z",
       "firstSeenAt": "2026-10-29T12:57:06.794743Z",
-      "lastSeenAt": "2026-10-31T21:30:18.373883Z",
-      "collectedAt": "2026-10-31T21:30:18.373883Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -83199,7 +83449,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 5
+      "seenCount": 6
     },
     {
       "id": "live-457d3892cb50950c5b16013c",
@@ -83393,8 +83643,8 @@
       "description": "《轮回之兽》勉强及格的半成品 宝可梦开发商交GF 6年做了个啥 news.mydrivers.com",
       "publishedAt": "2026-08-12T07:00:00Z",
       "firstSeenAt": "2026-09-04T11:15:27.702283Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -83409,7 +83659,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 107
+      "seenCount": 108
     },
     {
       "id": "live-b96fdf1a162f55bd60e90d81",
@@ -83423,8 +83673,8 @@
       "description": "《直到黎明》开发商 Supermassive Games 裁员多达 75 人，此前《8020号指令》反响平平 17173",
       "publishedAt": "2026-08-11T07:00:00Z",
       "firstSeenAt": "2026-09-17T16:58:28.467963Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -83439,7 +83689,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 72
+      "seenCount": 73
     },
     {
       "id": "live-da45409bbd456a30cea47a2d",
@@ -91267,8 +91517,8 @@
       "description": "2026年7月国产/进口游戏版号出炉，3A大作《影之刃零》过审 sohu.com",
       "publishedAt": "2026-07-23T07:00:00Z",
       "firstSeenAt": "2026-09-03T02:56:10.985756Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -91285,7 +91535,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 362
+      "seenCount": 363
     },
     {
       "id": "live-1c7f6abbe4539b7222e908e6",
@@ -91349,9 +91599,9 @@
     },
     {
       "id": "live-7334760acc6143a8e3a7f1d9",
-      "title": "“韩版TapTap”One Store全面引进微信小游戏！波克城市“吃到第一只螃蟹” - 腾讯新闻",
+      "title": "“韩版TapTap”One Store全面引进微信小游戏！波克城市“吃到第一只螃蟹” - QQ News",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJbmo4UEhyOHB3QTMzUERUQ29ES0xDWU9UMm1ybld5clVCSDMtYWt6OXJxajQ4dXZhcWNuVFRxQkxCcXJZbGU1Vkt0RWY5Uk43UkVsRXRn?oc=5",
-      "source": "腾讯新闻",
+      "source": "QQ News",
       "provider": "Google News RSS",
       "providerType": "news_rss",
       "engine": null,
@@ -91359,8 +91609,8 @@
       "description": "“韩版TapTap”One Store全面引进微信小游戏！波克城市“吃到第一只螃蟹” news.qq.com",
       "publishedAt": "2026-07-21T07:00:00Z",
       "firstSeenAt": "2026-09-07T12:28:30.007837Z",
-      "lastSeenAt": "2026-10-31T12:22:17.463782Z",
-      "collectedAt": "2026-10-31T12:22:17.463782Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -91375,7 +91625,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 96
+      "seenCount": 97
     },
     {
       "id": "live-6d0232848a57ef5b75fc96db",
@@ -102891,8 +103141,8 @@
       "description": "微软大裁员：被困在绩优主义中的主机厂丨游值洞察 21财经",
       "publishedAt": "2026-07-09T07:00:00Z",
       "firstSeenAt": "2026-09-04T16:20:07.891706Z",
-      "lastSeenAt": "2026-10-27T22:10:44.493437Z",
-      "collectedAt": "2026-10-27T22:10:44.493437Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -102907,7 +103157,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 4
+      "seenCount": 5
     },
     {
       "id": "live-e41b90ec87b3003814c66c31",
@@ -108333,8 +108583,8 @@
       "description": "小红书遭前高管实名举报，投诉公司上市不合规 donews.com",
       "publishedAt": "2026-07-02T07:00:00Z",
       "firstSeenAt": "2026-09-03T07:17:41.861696Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -108349,7 +108599,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 209
+      "seenCount": 210
     },
     {
       "id": "live-1cb5e9b8e7489986657e5b2a",
@@ -108393,8 +108643,8 @@
       "description": "《明日方舟：终末地》1.3版本新地图“藏剑谷”关卡设计拆解（中） gcores.com",
       "publishedAt": "2026-06-24T17:57:06Z",
       "firstSeenAt": "2026-09-03T21:00:41.539527Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -108409,7 +108659,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 95
+      "seenCount": 96
     },
     {
       "id": "live-38b373a9ee7d88440e245b39",
@@ -108663,8 +108913,8 @@
       "description": "韩国游戏监管收紧：概率公示、代理人制度与换皮风险全解析 enjoyglobal.net",
       "publishedAt": "2026-06-09T07:00:00Z",
       "firstSeenAt": "2026-09-03T07:17:41.861696Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -108679,7 +108929,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 171
+      "seenCount": 172
     },
     {
       "id": "live-b666a3c850385e779fa97433",
@@ -108723,8 +108973,8 @@
       "description": "被玩家狂喷，但依然有23万人同时在Steam玩这款氪金小游戏 游戏陀螺",
       "publishedAt": "2026-06-05T07:00:00Z",
       "firstSeenAt": "2026-10-03T21:12:30.224457Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -108739,7 +108989,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 78
+      "seenCount": 79
     },
     {
       "id": "live-c62bf5487cdfc13d39a5e5ca",
@@ -108783,8 +109033,8 @@
       "description": "FF7 Rebirth 钢琴小游戏指南：星级评价与奖励获取技巧 games.gg",
       "publishedAt": "2026-06-03T07:00:00Z",
       "firstSeenAt": "2026-10-31T21:30:18.373883Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -108799,7 +109049,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 3
+      "seenCount": 4
     },
     {
       "id": "live-88dc26457304015e7dd20be2",
@@ -108920,6 +109170,36 @@
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
       "seenCount": 34
+    },
+    {
+      "id": "live-f124e574bab3a211712784e2",
+      "title": "3亿MAU，单月流水超千万，全球霸榜的《Block Blast!》 突遭谷歌下架 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rWWxVcUFCWDY5ZVJzVEc2NGFBcURQS1RucUlRZEdiVmxfN0EtMjNlc1FOaWV5MTgxcmpVRlI2cWxhdlI0ODhpX3NKNlFxdTlqNEE?oc=5",
+      "source": "搜狐网",
+      "provider": "Google News RSS",
+      "providerType": "news_rss",
+      "engine": null,
+      "query": "小游戏 投诉 风险",
+      "description": "3亿MAU，单月流水超千万，全球霸榜的《Block Blast!》 突遭谷歌下架 搜狐网",
+      "publishedAt": "2026-05-29T07:00:00Z",
+      "firstSeenAt": "2026-11-01T21:59:32.490122Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "新闻 RSS",
+      "accessLevel": "新闻 RSS",
+      "platform": "news",
+      "platformLabel": "新闻/行业媒体",
+      "gameId": null,
+      "gameName": null,
+      "relevanceScore": 35,
+      "isRelevant": true,
+      "matchedAliases": [],
+      "matchedTerms": [],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": null,
+      "analysisStatus": "unclassified",
+      "seenCount": 1
     },
     {
       "id": "live-a7630b9cfe6fc953263faf0a",
@@ -115917,8 +116197,8 @@
       "description": "猛兽派对在开发者宣布AI视频竞赛后遭遇差评轰炸 17173",
       "publishedAt": "2026-05-15T07:00:00Z",
       "firstSeenAt": "2026-09-03T21:00:41.539527Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -115933,7 +116213,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 14
+      "seenCount": 15
     },
     {
       "id": "live-61ab2b6af92051389e5afd3f",
@@ -116097,8 +116377,8 @@
       "description": "Mixtape评测：音乐与艺术交织的青春故事 games.gg",
       "publishedAt": "2026-05-11T17:05:08Z",
       "firstSeenAt": "2026-09-03T07:17:41.861696Z",
-      "lastSeenAt": "2026-10-23T21:22:26.770935Z",
-      "collectedAt": "2026-10-23T21:22:26.770935Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -116113,7 +116393,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 30
+      "seenCount": 31
     },
     {
       "id": "live-ced9b7d9744fe15239a4ecb5",
@@ -116187,8 +116467,8 @@
       "description": "IGN满分神作太变态！\"舌吻\"小游戏黏腻湿滑超恶心 news.17173.com",
       "publishedAt": "2026-05-08T07:00:00Z",
       "firstSeenAt": "2026-09-04T04:29:47.148403Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -116203,7 +116483,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 205
+      "seenCount": 206
     },
     {
       "id": "live-a248c80ec204d38ed94f0483",
@@ -118779,8 +119059,8 @@
       "description": "《吸血鬼：避世血族2》DLC上线，评价褒贬不一 news.17173.com",
       "publishedAt": "2026-04-29T07:00:00Z",
       "firstSeenAt": "2026-09-12T15:30:18.753227Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -118795,7 +119075,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 89
+      "seenCount": 90
     },
     {
       "id": "live-85f3d86c1512bcaf54156136",
@@ -119111,6 +119391,36 @@
       "firstSeenAt": "2026-11-01T13:18:07.887463Z",
       "lastSeenAt": "2026-11-01T13:18:07.887463Z",
       "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "mode": "新闻 RSS",
+      "accessLevel": "新闻 RSS",
+      "platform": "news",
+      "platformLabel": "新闻/行业媒体",
+      "gameId": null,
+      "gameName": null,
+      "relevanceScore": 35,
+      "isRelevant": true,
+      "matchedAliases": [],
+      "matchedTerms": [],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": null,
+      "analysisStatus": "unclassified",
+      "seenCount": 1
+    },
+    {
+      "id": "live-c2a8a959eb415b2ab1b9cccb",
+      "title": "杀戮尖塔2更新喜迎大量差评，引起玩家思考，Steam评价需理性看待",
+      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ae7b64646bc4a6496fd72bfe2a9e379&url=https%3A%2F%2Fwww.msn.com%2Fzh-cn%2Fnews%2Fother%2F%25E6%259D%2580%25E6%2588%25AE%25E5%25B0%2596%25E5%25A1%25942%25E6%259B%25B4%25E6%2596%25B0%25E5%2596%259C%25E8%25BF%258E%25E5%25A4%25A7%25E9%2587%258F%25E5%25B7%25AE%25E8%25AF%2584-%25E5%25BC%2595%25E8%25B5%25B7%25E7%258E%25A9%25E5%25AE%25B6%25E6%2580%259D%25E8%2580%2583-steam%25E8%25AF%2584%25E4%25BB%25B7%25E9%259C%2580%25E7%2590%2586%25E6%2580%25A7%25E7%259C%258B%25E5%25BE%2585%2Far-AA21xrqN&c=14063646363991976416&mkt=en-us",
+      "source": "bing.com",
+      "provider": "Bing News RSS",
+      "providerType": "news_rss",
+      "engine": null,
+      "query": "小游戏 玩家 评价",
+      "description": "【本文由小黑盒作者@被xhh审核冤枉第一人于04月23日发布，转载请标明出处！】 社交媒体博主Wesley指出《杀戮尖塔2》在发布初期取得了巨大的商业成功，与其在Steam上仅为“褒贬不一”的评价存在显著反差，并对此进行了分类剖析。 他认为，当前的Steam评论已 ...",
+      "publishedAt": "2026-04-23T00:49:00Z",
+      "firstSeenAt": "2026-11-01T21:59:32.490122Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -124059,8 +124369,8 @@
       "description": "迪士尼法务部警告：“米老鼠风”复古新游好评如潮！ news.qq.com",
       "publishedAt": "2026-04-17T07:00:00Z",
       "firstSeenAt": "2026-10-03T05:15:48.829915Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -124075,7 +124385,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 71
+      "seenCount": 72
     },
     {
       "id": "live-fc9d5335f7afad266c738f02",
@@ -126789,8 +127099,8 @@
       "description": "3月数字零售：拼多多砸千亿组建“新拼姆” 抖音 快手清退大量违规商家 tidenews.com.cn",
       "publishedAt": "2026-04-01T07:00:00Z",
       "firstSeenAt": "2026-09-24T17:08:39.306141Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -126805,7 +127115,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 119
+      "seenCount": 120
     },
     {
       "id": "live-f3870a4db5813c23cd60991c",
@@ -127119,8 +127429,8 @@
       "description": "宝可梦 Pokopia：我们对这款在 Switch 2 上的休闲向模拟游戏如何俘获玩家的评价 Sortir à Paris",
       "publishedAt": "2026-03-27T07:00:00Z",
       "firstSeenAt": "2026-10-30T22:16:13.971666Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -127135,7 +127445,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 5
+      "seenCount": 6
     },
     {
       "id": "live-4c6a2777a015ee43ffbb8e03",
@@ -127269,8 +127579,8 @@
       "description": "玩家评价褒贬不一!《守望先锋》小美神话皮肤明日上线 news.17173.com",
       "publishedAt": "2026-03-10T07:00:00Z",
       "firstSeenAt": "2026-09-05T04:24:31.746798Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -127285,7 +127595,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 202
+      "seenCount": 203
     },
     {
       "id": "live-ca3024a2a599f824c6cac507",
@@ -131098,6 +131408,36 @@
       "seenCount": 1
     },
     {
+      "id": "live-a60d9ab6a410de3ca79a50f2",
+      "title": "玩家评价褒贬不一!《守望先锋》小美神话皮肤明日上线",
+      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ae7b64646bc4a6496fd72bfe2a9e379&url=https%3A%2F%2Fnews.17173.com%2Fcontent%2F03102026%2F120651053.shtml&c=9300267233648311652&mkt=en-us",
+      "source": "bing.com",
+      "provider": "Bing News RSS",
+      "providerType": "news_rss",
+      "engine": null,
+      "query": "小游戏 玩家 评价",
+      "description": "《守望先锋》小美神话皮肤明日上线！玩家评价两极分化，海外热议形象设计，国内玩家直呼“真神话”。获取难度引关注，快来了解这款备受争议的新皮肤！ 守望先锋官方发布消息，小美神话皮肤即将正式上线，随时准备投入战斗。这款皮肤的预览内容已同步 ...",
+      "publishedAt": "2026-03-10T05:06:00Z",
+      "firstSeenAt": "2026-11-01T21:59:32.490122Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "新闻 RSS",
+      "accessLevel": "新闻 RSS",
+      "platform": "news",
+      "platformLabel": "新闻/行业媒体",
+      "gameId": null,
+      "gameName": null,
+      "relevanceScore": 35,
+      "isRelevant": true,
+      "matchedAliases": [],
+      "matchedTerms": [],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": null,
+      "analysisStatus": "unclassified",
+      "seenCount": 1
+    },
+    {
       "id": "live-1129847d544cd30e1bd8508f",
       "title": "2月微信小游戏畅销榜Top100：《我的花园世界》春节大杀四方、大梦三款会师Top10 - QQ News",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ydXBNSlVNVkdhWXpLWlA1clVmZnBQenlDVmhFSkxxdjB4UTlqTnpLSk00b0xRZkE5b3h5bzdXLVlhdkZ3Rjd2N2VKZDJhVGFwOXVZNnpn?oc=5",
@@ -133629,8 +133969,8 @@
       "description": "孩子玩游戏充值过万，律师揭秘退款维权关键 新湖南",
       "publishedAt": "2026-01-14T08:00:00Z",
       "firstSeenAt": "2026-10-31T12:22:17.463782Z",
-      "lastSeenAt": "2026-11-01T05:58:28.600707Z",
-      "collectedAt": "2026-11-01T05:58:28.600707Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -133645,7 +133985,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 2
+      "seenCount": 3
     },
     {
       "id": "live-d21bf70dbcbd4d4a6e8d85f5",
@@ -134319,8 +134659,8 @@
       "description": "报告：2025年国内游戏收入3507亿元，同比增长7.68% 21jingji.com",
       "publishedAt": "2025-12-19T08:00:00Z",
       "firstSeenAt": "2026-09-03T02:56:11.611540Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -134335,7 +134675,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 210
+      "seenCount": 211
     },
     {
       "id": "live-a821b0f32fc75726c4fa2ab3",
@@ -136719,38 +137059,8 @@
       "description": "海外刷榜、国内日耗百万，新爆款居然是个“素材王” baijing.cn",
       "publishedAt": "2025-11-07T08:00:00Z",
       "firstSeenAt": "2026-09-03T07:17:41.861696Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
-      "mode": "新闻 RSS",
-      "accessLevel": "新闻 RSS",
-      "platform": "news",
-      "platformLabel": "新闻/行业媒体",
-      "gameId": null,
-      "gameName": null,
-      "relevanceScore": 35,
-      "isRelevant": true,
-      "matchedAliases": [],
-      "matchedTerms": [],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": null,
-      "analysisStatus": "unclassified",
-      "seenCount": 130
-    },
-    {
-      "id": "live-66a150bf690c4dfd5ae8fffc",
-      "title": "逆水寒手游出海到底能不能打？玩家的评价太真实 - QQ News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1iZHBnbnhhVmZIUWpON0hmMGd1TEhqZDFKbGRDZkIxR1ItMUY4NTFZalNZalI4Ni1Xc3VVQmtLVEszSHdQOExqclFzT1B2UjhJNWs3SEp3?oc=5",
-      "source": "QQ News",
-      "provider": "Google News RSS",
-      "providerType": "news_rss",
-      "engine": null,
-      "query": "小游戏 玩家 评价",
-      "description": "逆水寒手游出海到底能不能打？玩家的评价太真实 news.qq.com",
-      "publishedAt": "2025-11-07T08:00:00Z",
-      "firstSeenAt": "2026-09-04T16:20:07.891706Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -136768,19 +137078,19 @@
       "seenCount": 131
     },
     {
-      "id": "live-b6aa5a4fd18248a69a045706",
-      "title": "《原神》翻车了？新版本主推UGC新玩法惹争议，玩家：求卸载教程 - 17173",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91SHhDbFNCSHdLamEwNUNEV0VRRGZGVlgwYldtSDg1YmRqejhsbVlWVHFrZWROanA1VDA2Zlc0dWtxZU5EWUNCQWx0dGNZLXBEX29ZNm1RY0J3MFpDckktZk1BQ2g?oc=5",
-      "source": "17173",
+      "id": "live-66a150bf690c4dfd5ae8fffc",
+      "title": "逆水寒手游出海到底能不能打？玩家的评价太真实 - QQ News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1iZHBnbnhhVmZIUWpON0hmMGd1TEhqZDFKbGRDZkIxR1ItMUY4NTFZalNZalI4Ni1Xc3VVQmtLVEszSHdQOExqclFzT1B2UjhJNWs3SEp3?oc=5",
+      "source": "QQ News",
       "provider": "Google News RSS",
       "providerType": "news_rss",
       "engine": null,
       "query": "小游戏 玩家 评价",
-      "description": "《原神》翻车了？新版本主推UGC新玩法惹争议，玩家：求卸载教程 news.17173.com",
-      "publishedAt": "2025-10-23T07:00:00Z",
-      "firstSeenAt": "2026-09-03T07:17:41.861696Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "description": "逆水寒手游出海到底能不能打？玩家的评价太真实 news.qq.com",
+      "publishedAt": "2025-11-07T08:00:00Z",
+      "firstSeenAt": "2026-09-04T16:20:07.891706Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -136795,7 +137105,37 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 151
+      "seenCount": 132
+    },
+    {
+      "id": "live-b6aa5a4fd18248a69a045706",
+      "title": "《原神》翻车了？新版本主推UGC新玩法惹争议，玩家：求卸载教程 - 17173",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91SHhDbFNCSHdLamEwNUNEV0VRRGZGVlgwYldtSDg1YmRqejhsbVlWVHFrZWROanA1VDA2Zlc0dWtxZU5EWUNCQWx0dGNZLXBEX29ZNm1RY0J3MFpDckktZk1BQ2g?oc=5",
+      "source": "17173",
+      "provider": "Google News RSS",
+      "providerType": "news_rss",
+      "engine": null,
+      "query": "小游戏 玩家 评价",
+      "description": "《原神》翻车了？新版本主推UGC新玩法惹争议，玩家：求卸载教程 news.17173.com",
+      "publishedAt": "2025-10-23T07:00:00Z",
+      "firstSeenAt": "2026-09-03T07:17:41.861696Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
+      "mode": "新闻 RSS",
+      "accessLevel": "新闻 RSS",
+      "platform": "news",
+      "platformLabel": "新闻/行业媒体",
+      "gameId": null,
+      "gameName": null,
+      "relevanceScore": 35,
+      "isRelevant": true,
+      "matchedAliases": [],
+      "matchedTerms": [],
+      "excludedTerms": [],
+      "isExcluded": false,
+      "rawProviderScore": null,
+      "analysisStatus": "unclassified",
+      "seenCount": 152
     },
     {
       "id": "live-d563a9ad4ae2e984d11c0c36",
@@ -147903,8 +148243,8 @@
       "description": "《小小梦魇3》VS 《Reanimal》精神续作试玩Demo 压倒性战胜 正统续作完整版 Gameclopedia",
       "publishedAt": "2025-10-16T07:00:00Z",
       "firstSeenAt": "2026-10-29T12:57:06.794743Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -147919,7 +148259,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 6
+      "seenCount": 7
     },
     {
       "id": "live-197e4d75d24d228083154155",
@@ -147933,8 +148273,8 @@
       "description": "冰川网络新游 X-Clash:Dare 试玩 xueqiu.com",
       "publishedAt": "2025-10-15T07:00:00Z",
       "firstSeenAt": "2026-09-03T07:17:41.861696Z",
-      "lastSeenAt": "2026-11-01T13:18:07.887463Z",
-      "collectedAt": "2026-11-01T13:18:07.887463Z",
+      "lastSeenAt": "2026-11-01T21:59:32.490122Z",
+      "collectedAt": "2026-11-01T21:59:32.490122Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
@@ -147949,7 +148289,7 @@
       "isExcluded": false,
       "rawProviderScore": null,
       "analysisStatus": "unclassified",
-      "seenCount": 171
+      "seenCount": 172
     },
     {
       "id": "live-49ec14686674db393b868480",
@@ -154661,358 +155001,6 @@
       "firstSeenAt": "2026-10-02T22:11:54.611506Z",
       "lastSeenAt": "2026-10-02T22:11:54.611506Z",
       "collectedAt": "2026-10-02T22:11:54.611506Z",
-      "mode": "新闻 RSS",
-      "accessLevel": "新闻 RSS",
-      "platform": "news",
-      "platformLabel": "新闻/行业媒体",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 8,
-      "isRelevant": false,
-      "matchedAliases": [],
-      "matchedTerms": [
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": null,
-      "analysisStatus": "unclassified",
-      "seenCount": 1
-    },
-    {
-      "id": "live-61593a53feb9138f3f6dfb93",
-      "title": "宫廷风云国战争锋!甄嬛传联动PV震撼来袭，游戏内更有诸多精彩联动 ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ac02c2b742044b29b3216a9a50e7470&url=https%3A%2F%2Fnews.qq.com%2Frain%2Fa%2F20250908A08MPG00&c=7808725452775330286&mkt=en-us",
-      "source": "bing.com",
-      "provider": "Bing News RSS",
-      "providerType": "news_rss",
-      "engine": null,
-      "query": "梦回甄嬛传 小游戏",
-      "description": "巨人网络旗下经典国战IP征途与现象级国民IP《甄嬛传》，达成深度联动。本周游戏内多项主题联动活动已拉开帷幕，为所有玩家与剧迷奉上一场宫廷风云与热血国战交织的沉浸体验。 征途IP×甄嬛传联动PV，将《甄嬛传》中甄嬛波澜壮阔的一生与征途玩家 ...",
-      "publishedAt": "2025-09-08T14:10:00Z",
-      "firstSeenAt": "2026-10-02T22:11:54.611506Z",
-      "lastSeenAt": "2026-10-02T22:11:54.611506Z",
-      "collectedAt": "2026-10-02T22:11:54.611506Z",
-      "mode": "新闻 RSS",
-      "accessLevel": "新闻 RSS",
-      "platform": "news",
-      "platformLabel": "新闻/行业媒体",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 8,
-      "isRelevant": false,
-      "matchedAliases": [],
-      "matchedTerms": [
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": null,
-      "analysisStatus": "unclassified",
-      "seenCount": 1
-    },
-    {
-      "id": "live-eeef8693973c4f97712cc29e",
-      "title": "宫廷风云国战争锋!甄嬛传联动PV震撼来袭，游戏内更有诸多精彩联动 ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ac08f850e74424bb3c04130a026f9eb&url=https%3A%2F%2Fnews.qq.com%2Frain%2Fa%2F20250908A08MPG00&c=7808725452775330286&mkt=en-us",
-      "source": "bing.com",
-      "provider": "Bing News RSS",
-      "providerType": "news_rss",
-      "engine": null,
-      "query": "梦回甄嬛传 游戏",
-      "description": "巨人网络旗下经典国战IP征途与现象级国民IP《甄嬛传》，达成深度联动。本周游戏内多项主题联动活动已拉开帷幕，为所有玩家与剧迷奉上一场宫廷风云与热血国战交织的沉浸体验。 征途IP×甄嬛传联动PV，将《甄嬛传》中甄嬛波澜壮阔的一生与征途玩家 ...",
-      "publishedAt": "2025-09-08T14:10:00Z",
-      "firstSeenAt": "2026-10-03T05:15:48.829915Z",
-      "lastSeenAt": "2026-10-03T05:15:48.829915Z",
-      "collectedAt": "2026-10-03T05:15:48.829915Z",
-      "mode": "新闻 RSS",
-      "accessLevel": "新闻 RSS",
-      "platform": "news",
-      "platformLabel": "新闻/行业媒体",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 8,
-      "isRelevant": false,
-      "matchedAliases": [],
-      "matchedTerms": [
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": null,
-      "analysisStatus": "unclassified",
-      "seenCount": 1
-    },
-    {
-      "id": "live-f1fba6379b6ac417995ecfa8",
-      "title": "宫廷风云国战争锋!甄嬛传联动PV震撼来袭，游戏内更有诸多精彩联动 ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ac08f85b265480d94ea03a5c1a352da&url=https%3A%2F%2Fnews.qq.com%2Frain%2Fa%2F20250908A08MPG00&c=7808725452775330286&mkt=en-us",
-      "source": "bing.com",
-      "provider": "Bing News RSS",
-      "providerType": "news_rss",
-      "engine": null,
-      "query": "梦回甄嬛传 小游戏",
-      "description": "巨人网络旗下经典国战IP征途与现象级国民IP《甄嬛传》，达成深度联动。本周游戏内多项主题联动活动已拉开帷幕，为所有玩家与剧迷奉上一场宫廷风云与热血国战交织的沉浸体验。 征途IP×甄嬛传联动PV，将《甄嬛传》中甄嬛波澜壮阔的一生与征途玩家 ...",
-      "publishedAt": "2025-09-08T14:10:00Z",
-      "firstSeenAt": "2026-10-03T05:15:48.829915Z",
-      "lastSeenAt": "2026-10-03T05:15:48.829915Z",
-      "collectedAt": "2026-10-03T05:15:48.829915Z",
-      "mode": "新闻 RSS",
-      "accessLevel": "新闻 RSS",
-      "platform": "news",
-      "platformLabel": "新闻/行业媒体",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 8,
-      "isRelevant": false,
-      "matchedAliases": [],
-      "matchedTerms": [
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": null,
-      "analysisStatus": "unclassified",
-      "seenCount": 1
-    },
-    {
-      "id": "live-7fac934156b323f962176319",
-      "title": "宫廷风云国战争锋!甄嬛传联动PV震撼来袭，游戏内更有诸多精彩联动 ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ac0e8e0eb6441b5b21761319dfed4f8&url=https%3A%2F%2Fnews.qq.com%2Frain%2Fa%2F20250908A08MPG00&c=7808725452775330286&mkt=en-us",
-      "source": "bing.com",
-      "provider": "Bing News RSS",
-      "providerType": "news_rss",
-      "engine": null,
-      "query": "梦回甄嬛传 游戏",
-      "description": "巨人网络旗下经典国战IP征途与现象级国民IP《甄嬛传》，达成深度联动。本周游戏内多项主题联动活动已拉开帷幕，为所有玩家与剧迷奉上一场宫廷风云与热血国战交织的沉浸体验。 征途IP×甄嬛传联动PV，将《甄嬛传》中甄嬛波澜壮阔的一生与征途玩家 ...",
-      "publishedAt": "2025-09-08T14:10:00Z",
-      "firstSeenAt": "2026-10-03T11:37:04.699013Z",
-      "lastSeenAt": "2026-10-03T11:37:04.699013Z",
-      "collectedAt": "2026-10-03T11:37:04.699013Z",
-      "mode": "新闻 RSS",
-      "accessLevel": "新闻 RSS",
-      "platform": "news",
-      "platformLabel": "新闻/行业媒体",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 8,
-      "isRelevant": false,
-      "matchedAliases": [],
-      "matchedTerms": [
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": null,
-      "analysisStatus": "unclassified",
-      "seenCount": 1
-    },
-    {
-      "id": "live-59711941c386208e548e6010",
-      "title": "宫廷风云国战争锋!甄嬛传联动PV震撼来袭，游戏内更有诸多精彩联动 ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ac0e8e1c2bc40ee9386b2c2d1583e70&url=https%3A%2F%2Fnews.qq.com%2Frain%2Fa%2F20250908A08MPG00&c=7808725452775330286&mkt=en-us",
-      "source": "bing.com",
-      "provider": "Bing News RSS",
-      "providerType": "news_rss",
-      "engine": null,
-      "query": "梦回甄嬛传 小游戏",
-      "description": "巨人网络旗下经典国战IP征途与现象级国民IP《甄嬛传》，达成深度联动。本周游戏内多项主题联动活动已拉开帷幕，为所有玩家与剧迷奉上一场宫廷风云与热血国战交织的沉浸体验。 征途IP×甄嬛传联动PV，将《甄嬛传》中甄嬛波澜壮阔的一生与征途玩家 ...",
-      "publishedAt": "2025-09-08T14:10:00Z",
-      "firstSeenAt": "2026-10-03T11:37:04.699013Z",
-      "lastSeenAt": "2026-10-03T11:37:04.699013Z",
-      "collectedAt": "2026-10-03T11:37:04.699013Z",
-      "mode": "新闻 RSS",
-      "accessLevel": "新闻 RSS",
-      "platform": "news",
-      "platformLabel": "新闻/行业媒体",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 8,
-      "isRelevant": false,
-      "matchedAliases": [],
-      "matchedTerms": [
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": null,
-      "analysisStatus": "unclassified",
-      "seenCount": 1
-    },
-    {
-      "id": "live-b166f6d29fc0a7707272083c",
-      "title": "宫廷风云国战争锋!甄嬛传联动PV震撼来袭，游戏内更有诸多精彩联动 ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ac12a3ae2f64251b77f656caef4dfc1&url=https%3A%2F%2Fnews.qq.com%2Frain%2Fa%2F20250908A08MPG00&c=7808725452775330286&mkt=en-us",
-      "source": "bing.com",
-      "provider": "Bing News RSS",
-      "providerType": "news_rss",
-      "engine": null,
-      "query": "梦回甄嬛传 游戏",
-      "description": "巨人网络旗下经典国战IP征途与现象级国民IP《甄嬛传》，达成深度联动。本周游戏内多项主题联动活动已拉开帷幕，为所有玩家与剧迷奉上一场宫廷风云与热血国战交织的沉浸体验。 征途IP×甄嬛传联动PV，将《甄嬛传》中甄嬛波澜壮阔的一生与征途玩家 ...",
-      "publishedAt": "2025-09-08T14:10:00Z",
-      "firstSeenAt": "2026-10-03T16:15:53.957473Z",
-      "lastSeenAt": "2026-10-03T16:15:53.957473Z",
-      "collectedAt": "2026-10-03T16:15:53.957473Z",
-      "mode": "新闻 RSS",
-      "accessLevel": "新闻 RSS",
-      "platform": "news",
-      "platformLabel": "新闻/行业媒体",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 8,
-      "isRelevant": false,
-      "matchedAliases": [],
-      "matchedTerms": [
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": null,
-      "analysisStatus": "unclassified",
-      "seenCount": 1
-    },
-    {
-      "id": "live-19b242568c9151347ff23fe0",
-      "title": "宫廷风云国战争锋!甄嬛传联动PV震撼来袭，游戏内更有诸多精彩联动 ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ac12a3ac3b6429181d03f2d5c7a75d4&url=https%3A%2F%2Fnews.qq.com%2Frain%2Fa%2F20250908A08MPG00&c=7808725452775330286&mkt=en-us",
-      "source": "bing.com",
-      "provider": "Bing News RSS",
-      "providerType": "news_rss",
-      "engine": null,
-      "query": "梦回甄嬛传 小游戏",
-      "description": "巨人网络旗下经典国战IP征途与现象级国民IP《甄嬛传》，达成深度联动。本周游戏内多项主题联动活动已拉开帷幕，为所有玩家与剧迷奉上一场宫廷风云与热血国战交织的沉浸体验。 征途IP×甄嬛传联动PV，将《甄嬛传》中甄嬛波澜壮阔的一生与征途玩家 ...",
-      "publishedAt": "2025-09-08T14:10:00Z",
-      "firstSeenAt": "2026-10-03T16:15:53.957473Z",
-      "lastSeenAt": "2026-10-03T16:15:53.957473Z",
-      "collectedAt": "2026-10-03T16:15:53.957473Z",
-      "mode": "新闻 RSS",
-      "accessLevel": "新闻 RSS",
-      "platform": "news",
-      "platformLabel": "新闻/行业媒体",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 8,
-      "isRelevant": false,
-      "matchedAliases": [],
-      "matchedTerms": [
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": null,
-      "analysisStatus": "unclassified",
-      "seenCount": 1
-    },
-    {
-      "id": "live-e08635b8bfcbc078e684f282",
-      "title": "宫廷风云国战争锋!甄嬛传联动PV震撼来袭，游戏内更有诸多精彩联动 ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ac16fbee0af4847925518919ba746a0&url=https%3A%2F%2Fnews.qq.com%2Frain%2Fa%2F20250908A08MPG00&c=7808725452775330286&mkt=en-us",
-      "source": "bing.com",
-      "provider": "Bing News RSS",
-      "providerType": "news_rss",
-      "engine": null,
-      "query": "梦回甄嬛传 游戏",
-      "description": "巨人网络旗下经典国战IP征途与现象级国民IP《甄嬛传》，达成深度联动。本周游戏内多项主题联动活动已拉开帷幕，为所有玩家与剧迷奉上一场宫廷风云与热血国战交织的沉浸体验。 征途IP×甄嬛传联动PV，将《甄嬛传》中甄嬛波澜壮阔的一生与征途玩家 ...",
-      "publishedAt": "2025-09-08T14:10:00Z",
-      "firstSeenAt": "2026-10-03T21:12:30.224457Z",
-      "lastSeenAt": "2026-10-03T21:12:30.224457Z",
-      "collectedAt": "2026-10-03T21:12:30.224457Z",
-      "mode": "新闻 RSS",
-      "accessLevel": "新闻 RSS",
-      "platform": "news",
-      "platformLabel": "新闻/行业媒体",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 8,
-      "isRelevant": false,
-      "matchedAliases": [],
-      "matchedTerms": [
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": null,
-      "analysisStatus": "unclassified",
-      "seenCount": 1
-    },
-    {
-      "id": "live-c6962e7a45b4452bc1e1053b",
-      "title": "宫廷风云国战争锋!甄嬛传联动PV震撼来袭，游戏内更有诸多精彩联动 ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ac16fbe19834c308bc7a59e5edcfdbf&url=https%3A%2F%2Fnews.qq.com%2Frain%2Fa%2F20250908A08MPG00&c=7808725452775330286&mkt=en-us",
-      "source": "bing.com",
-      "provider": "Bing News RSS",
-      "providerType": "news_rss",
-      "engine": null,
-      "query": "梦回甄嬛传 小游戏",
-      "description": "巨人网络旗下经典国战IP征途与现象级国民IP《甄嬛传》，达成深度联动。本周游戏内多项主题联动活动已拉开帷幕，为所有玩家与剧迷奉上一场宫廷风云与热血国战交织的沉浸体验。 征途IP×甄嬛传联动PV，将《甄嬛传》中甄嬛波澜壮阔的一生与征途玩家 ...",
-      "publishedAt": "2025-09-08T14:10:00Z",
-      "firstSeenAt": "2026-10-03T21:12:30.224457Z",
-      "lastSeenAt": "2026-10-03T21:12:30.224457Z",
-      "collectedAt": "2026-10-03T21:12:30.224457Z",
-      "mode": "新闻 RSS",
-      "accessLevel": "新闻 RSS",
-      "platform": "news",
-      "platformLabel": "新闻/行业媒体",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 8,
-      "isRelevant": false,
-      "matchedAliases": [],
-      "matchedTerms": [
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": null,
-      "analysisStatus": "unclassified",
-      "seenCount": 1
-    },
-    {
-      "id": "live-9251742f578c486dda217207",
-      "title": "宫廷风云国战争锋!甄嬛传联动PV震撼来袭，游戏内更有诸多精彩联动 ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ac1e8f349604e409b16e580a9737487&url=https%3A%2F%2Fnews.qq.com%2Frain%2Fa%2F20250908A08MPG00&c=7808725452775330286&mkt=en-us",
-      "source": "bing.com",
-      "provider": "Bing News RSS",
-      "providerType": "news_rss",
-      "engine": null,
-      "query": "梦回甄嬛传 游戏",
-      "description": "巨人网络旗下经典国战IP征途与现象级国民IP《甄嬛传》，达成深度联动。本周游戏内多项主题联动活动已拉开帷幕，为所有玩家与剧迷奉上一场宫廷风云与热血国战交织的沉浸体验。 征途IP×甄嬛传联动PV，将《甄嬛传》中甄嬛波澜壮阔的一生与征途玩家 ...",
-      "publishedAt": "2025-09-08T14:10:00Z",
-      "firstSeenAt": "2026-10-04T05:49:39.446219Z",
-      "lastSeenAt": "2026-10-04T05:49:39.446219Z",
-      "collectedAt": "2026-10-04T05:49:39.446219Z",
-      "mode": "新闻 RSS",
-      "accessLevel": "新闻 RSS",
-      "platform": "news",
-      "platformLabel": "新闻/行业媒体",
-      "gameId": "mhzhz",
-      "gameName": "梦回甄嬛传",
-      "relevanceScore": 8,
-      "isRelevant": false,
-      "matchedAliases": [],
-      "matchedTerms": [
-        "游戏"
-      ],
-      "excludedTerms": [],
-      "isExcluded": false,
-      "rawProviderScore": null,
-      "analysisStatus": "unclassified",
-      "seenCount": 1
-    },
-    {
-      "id": "live-eac49298a01cb8f648f41570",
-      "title": "宫廷风云国战争锋!甄嬛传联动PV震撼来袭，游戏内更有诸多精彩联动 ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?aid=&tid=6ac244306db642fabbf8b0bdc3f7d028&url=https%3A%2F%2Fnews.qq.com%2Frain%2Fa%2F20250908A08MPG00&c=7808725452775330286&mkt=es-mx",
-      "source": "bing.com",
-      "provider": "Bing News RSS",
-      "providerType": "news_rss",
-      "engine": null,
-      "query": "梦回甄嬛传 游戏",
-      "description": "巨人网络旗下经典国战IP征途与现象级国民IP《甄嬛传》，达成深度联动。本周游戏内多项主题联动活动已拉开帷幕，为所有玩家与剧迷奉上一场宫廷风云与热血国战交织的沉浸体验。 征途IP×甄嬛传联动PV，将《甄嬛传》中甄嬛波澜壮阔的一生与征途玩家 ...",
-      "publishedAt": "2025-09-08T14:10:00Z",
-      "firstSeenAt": "2026-10-04T12:18:55.887186Z",
-      "lastSeenAt": "2026-10-04T12:18:55.887186Z",
-      "collectedAt": "2026-10-04T12:18:55.887186Z",
       "mode": "新闻 RSS",
       "accessLevel": "新闻 RSS",
       "platform": "news",
